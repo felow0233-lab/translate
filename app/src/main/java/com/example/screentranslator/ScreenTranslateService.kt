@@ -1,4 +1,4 @@
-package com.example.screentranslator
+[20.11.2026 19:02] loop: package com.example.screentranslator
 
 import android.app.Activity
 import android.app.Notification
@@ -23,6 +23,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.WindowManager
 import android.widget.Button
+import android.widget.Toast
 import androidx.core.app.NotificationCompat
 import com.google.mlkit.nl.translate.TranslateLanguage
 import com.google.mlkit.nl.translate.Translation
@@ -55,7 +56,12 @@ class ScreenTranslateService : Service() {
     )
 
     private var isTranslatingMode = false
+    private var isProcessingFrame = false
+    private var lastRecognizedSignature: String? = null
+    private var cachedBlocks: List<TranslatedBlock> = emptyList()
+
     private val handler = Handler(Looper.getMainLooper())
+    private val pollIntervalMs = 500L
 
     override fun onBind(intent: Intent?): IBinder? = null
 
@@ -74,6 +80,8 @@ class ScreenTranslateService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        startForegroundNotification()
+
         val resultCode = intent?.getIntExtra("RESULT_CODE", Activity.RESULT_CANCELED)
             ?: Activity.RESULT_CANCELED
         val data = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -83,16 +91,19 @@ class ScreenTranslateService : Service() {
             intent?.getParcelableExtra("DATA")
         }
 
-        if (resultCode == Activity.RESULT_OK && data != null) {
-            val projectionManager =
-                getSystemService(Context.MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
-            mediaProjection = projectionManager.getMediaProjection(resultCode, data)
-            setupVirtualDisplay()
+        if (resultCode == Activity.RESULT_OK && data != null && mediaProjection == null) {
+            try {
+                val projectionManager =
+                    getSystemService(Context.MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
+                mediaProjection = projectionManager.getMediaProjection(resultCode, data)
+                setupVirtualDisplay()
+            } catch (e: Exception) {
+                Toast.makeText(this, "Ошибка запуска захвата: ${e.message}", Toast.LENGTH_LONG).show()
+            }
         }
         return START_NOT_STICKY
     }
-
-    private fun setupVirtualDisplay() {
+[20.11.2026 19:02] loop: private fun setupVirtualDisplay() {
         imageReader = ImageReader.newInstance(screenWidth, screenHeight, PixelFormat.RGBA_8888, 2)
         virtualDisplay = mediaProjection?.createVirtualDisplay(
             "ScreenCapture",
@@ -177,78 +188,124 @@ class ScreenTranslateService : Service() {
         isTranslatingMode = !isTranslatingMode
         if (isTranslatingMode) {
             floatingButton.text = "Перевод: ВКЛ"
+            lastRecognizedSignature = null
             startRealtimeLoop()
         } else {
             floatingButton.text = "Перевод: ВЫКЛ"
+            isProcessingFrame = false
+            lastRecognizedSignature = null
+            cachedBlocks = emptyList()
             handler.removeCallbacksAndMessages(null)
             overlayView.clear()
         }
     }
 
     private fun startRealtimeLoop() {
+        handler.removeCallbacksAndMessages(null)
         if (!isTranslatingMode) return
 
-        overlayView.clear()
-        handler.postDelayed({
-            if (!isTranslatingMode) return@postDelayed
-            captureAndTranslate()
-            handler.postDelayed({ startRealtimeLoop() }, 1600)
-        }, 120)
+        captureAndCheckText()
+        handler.postDelayed({ startRealtimeLoop() }, pollIntervalMs)
     }
 
-    private fun captureAndTranslate() {
+    private fun captureAndCheckText() {
+        if (isProcessingFrame) return
+
         val image = imageReader?.acquireLatestImage() ?: return
-        val planes = image.planes
-        val buffer = planes[0].buffer
-        val pixelStride = planes[0].pixelStride
-        val rowStride = planes[0].rowStride
-        val rowPadding = rowStride - pixelStride * screenWidth
+        isProcessingFrame = true
+[20.11.2026 19:02] loop: try {
+            val planes = image.planes
+            val buffer = planes[0].buffer
+            val pixelStride = planes[0].pixelStride
+            val rowStride = planes[0].rowStride
+            val rowPadding = rowStride - pixelStride * screenWidth
 
-        val bitmap = Bitmap.createBitmap(
-            screenWidth + rowPadding / pixelStride,
-            screenHeight,
-            Bitmap.Config.ARGB_8888
-        )
-        bitmap.copyPixelsFromBuffer(buffer)
-        image.close()
+            val bitmap = Bitmap.createBitmap(
+                screenWidth + rowPadding / pixelStride,
+                screenHeight,
+                Bitmap.Config.ARGB_8888
+            )
+            bitmap.copyPixelsFromBuffer(buffer)
+            image.close()
 
-        val croppedBitmap = Bitmap.createBitmap(bitmap, 0, 0, screenWidth, screenHeight)
-        val inputImage = InputImage.fromBitmap(croppedBitmap, 0)
+            val croppedBitmap = Bitmap.createBitmap(bitmap, 0, 0, screenWidth, screenHeight)
+            val inputImage = InputImage.fromBitmap(croppedBitmap, 0)
 
-        recognizer.process(inputImage)
-            .addOnSuccessListener { visionText ->
-                val blocks = visionText.textBlocks
-                if (blocks.isEmpty()) {
-                    overlayView.clear()
-                    return@addOnSuccessListener
-                }
-
-                val translatedBlocks = mutableListOf<TranslatedBlock>()
-                val totalBlocks = blocks.size
-                var processedCount = 0
-
-                for (block in blocks) {
-                    val rect = block.boundingBox
-                    if (rect == null) {
-                        processedCount++
-                        continue
+            recognizer.process(inputImage)
+                .addOnSuccessListener { visionText ->
+                    if (!isTranslatingMode) {
+                        isProcessingFrame = false
+                        return@addOnSuccessListener
                     }
 
-                    translator.translate(block.text)
-                        .addOnSuccessListener { translatedText ->
-                            translatedBlocks.add(TranslatedBlock(rect, translatedText))
+                    val blocks = visionText.textBlocks
+                    if (blocks.isEmpty()) {
+                        lastRecognizedSignature = ""
+                        cachedBlocks = emptyList()
+                        overlayView.clear()
+                        isProcessingFrame = false
+                        return@addOnSuccessListener
+                    }
+
+                    val signature = blocks.joinToString(separator = "|") { block ->
+                        val box = block.boundingBox
+                        "${block.text.trim()}@${box?.left ?: 0},${box?.top ?: 0}"
+                    }
+
+                    if (signature == lastRecognizedSignature) {
+                        if (cachedBlocks.isNotEmpty()) {
+                            overlayView.updateTranslations(cachedBlocks)
                         }
-                        .addOnCompleteListener {
+                        isProcessingFrame = false
+                        return@addOnSuccessListener
+                    }
+
+                    lastRecognizedSignature = signature
+
+                    val translatedBlocks = mutableListOf<TranslatedBlock>()
+                    val totalBlocks = blocks.size
+                    var processedCount = 0
+
+                    for (block in blocks) {
+                        val rect = block.boundingBox
+                        if (rect == null) {
                             processedCount++
                             if (processedCount == totalBlocks && isTranslatingMode) {
-                                overlayView.updateTranslations(translatedBlocks)
+                                cachedBlocks = translatedBlocks.toList()
+                                overlayView.updateTranslations(cachedBlocks)
+                                isProcessingFrame = false
                             }
+                            continue
                         }
-                }
-            }
-    }
 
-    private fun startForegroundNotification(): Notification {
+                        translator.translate(block.text)
+                            .addOnSuccessListener { translatedText ->
+                                translatedBlocks.add(TranslatedBlock(rect, translatedText))
+                            }
+                            .addOnCompleteListener {
+                                processedCount++
+                                if (processedCount == totalBlocks) {
+                                    if (isTranslatingMode) {
+                                        cachedBlocks = translatedBlocks.toList()
+                                        overlayView.updateTranslations(cachedBlocks)
+                                    }
+                                    isProcessingFrame = false
+                                }
+                            }
+                    }
+                }
+                .addOnFailureListener {
+                    isProcessingFrame = false
+                }
+        } catch (_: Exception) {
+            try {
+                image.close()
+            } catch (_: Exception) {
+            }
+            isProcessingFrame = false
+        }
+    }
+[20.11.2026 19:02] loop: private fun startForegroundNotification(): Notification {
         val channelId = "screen_translator_channel"
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
