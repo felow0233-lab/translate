@@ -34,9 +34,10 @@ class MainActivity : AppCompatActivity() {
             } else {
                 startService(serviceIntent)
             }
-            finish()
+            Toast.makeText(this, "Сервис запущен, ищите кнопку перевода", Toast.LENGTH_SHORT).show()
+            moveTaskToBack(true)
         } else {
-            Toast.makeText(this, "Разрешение на запись экрана отклонено", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Разрешение на запись экрана не выдано", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -44,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val startButton = Button(this).apply {
-            text = "Запустить переводчик экрана"
+            text = "ЗАПУСТИТЬ ПЕРЕВОДЧИК ЭКРАНА"
             textSize = 18f
         }
         setContentView(startButton)
@@ -63,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 Toast.makeText(
                     this,
-                    "Разрешите показ поверх других окон и вернитесь назад",
+                    "Разрешите отображение поверх других окон",
                     Toast.LENGTH_LONG
                 ).show()
             } else {
