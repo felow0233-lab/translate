@@ -1,6 +1,9 @@
 name: Build Russian RenPy translation scripts
 
 on:
+  push:
+    paths:
+      - ".github/workflows/build-russian-translation.yml"
   workflow_dispatch:
 
 permissions:
