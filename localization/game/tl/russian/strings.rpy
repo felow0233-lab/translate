@@ -2516,3 +2516,21 @@ translate russian strings:
 
     old "I searched the mansion. The training grounds. The garden. The kitchen."
     new "Я обыскал особняк, тренировочную площадку, сад и кухню."
+
+    old "🔒 You need at least 30 affection to unlock this option."
+    new "🔒 Чтобы открыть эту опцию, нужно не менее 30 очков привязанности."
+
+    old "🔒 You need at least 80 affection to unlock this option."
+    new "🔒 Чтобы открыть эту опцию, нужно не менее 80 очков привязанности."
+
+    old "🔒 You need at least 140 affection to unlock this option."
+    new "🔒 Чтобы открыть эту опцию, нужно не менее 140 очков привязанности."
+
+    old "🔒 You need at least 220 affection to unlock this option."
+    new "🔒 Чтобы открыть эту опцию, нужно не менее 220 очков привязанности."
+
+    old "🔒 You need at least 310 affection to unlock this option."
+    new "🔒 Чтобы открыть эту опцию, нужно не менее 310 очков привязанности."
+
+    old "🔒 You need at least 420 affection to unlock this option."
+    new "🔒 Чтобы открыть эту опцию, нужно не менее 420 очков привязанности."
