@@ -39,6 +39,7 @@ jobs:
               "assets/x-game/x-script.rpyc",
               "assets/x-game/x-03_init.rpyc",
               "assets/x-game/x-tl/x-None/x-common.rpym",
+              "assets/x-game/x-script_version.txt",
           ]
           with zipfile.ZipFile(apk) as z:
               names=set(z.namelist())
