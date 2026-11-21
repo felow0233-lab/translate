@@ -695,3 +695,63 @@ translate russian strings:
 
     old "Sylphie waves shyly from the door, goes inside, and slowly closes it. Rudeus stands there for a second, staring at the house."
     new "Сильфи застенчиво машет рукой с порога, заходит внутрь и медленно закрывает дверь. Рудеус ещё немного стоит, глядя на дом."
+
+    old "You feel tired and decide to rest for the day."
+    new "Ты чувствуешь усталость и решаешь отдохнуть до конца дня."
+
+    old "💗 Call Girl"
+    new "💗 Позвать девушку"
+
+    old "🌾 Go to the Barn"
+    new "🌾 Пойти в сарай"
+
+    old "Call Aisha"
+    new "Позвать Айшу"
+
+    old "Call Zenith"
+    new "Позвать Зенит"
+
+    old "Call Roxy"
+    new "Позвать Рокси"
+
+    old "Call Lilia"
+    new "Позвать Лилию"
+
+    old "Call Norn"
+    new "Позвать Норн"
+
+    old "🌾 Go to the Barn"
+    new "🌾 Пойти в сарай"
+
+    old "Return"
+    new "Назад"
+
+    old "🛒 Village Shop"
+    new "🛒 Деревенская лавка"
+
+    old "🔨 Blacksmith's Forge"
+    new "🔨 Кузница"
+
+    old "🍺 Tavern"
+    new "🍺 Таверна"
+
+    old "⚔️ Hunt the Slime Girl"
+    new "⚔️ Охотиться на девушку-слайма"
+
+    old "💜 Approach the mysterious girl (!)"
+    new "💜 Подойти к загадочной девушке (!)"
+
+    old "🏰 Enter the Castle"
+    new "🏰 Войти в замок"
+
+    old "🕵️ Black Merchant"
+    new "🕵️ Чёрный торговец"
+
+    old "Call [s_dog_name]"
+    new "Позвать [s_dog_name]"
+
+    old "Local não encontrado."
+    new "Место не найдено."
+
+    old "Call Sylphie"
+    new "Позвать Сильфи"
