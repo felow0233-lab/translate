@@ -7147,3 +7147,9 @@ translate russian strings:
     new "…Тёплое… Принеси тряпку."
     old "...You always make a mess. ...I don't mind."
     new "…Ты вечно всё пачкаешь… Но я не против."
+
+translate russian strings:
+    old "Servant"
+    new "Служанка"
+    old "Get out!"
+    new "Убирайся!"
