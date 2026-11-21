@@ -2489,3 +2489,30 @@ translate russian strings:
 
     old "I should find her."
     new "Нужно её найти."
+
+    old "🌟 The First Lesson"
+    new "🌟 Первый урок"
+
+    old "🌟 She Trusts You"
+    new "🌟 Она тебе доверяет"
+
+    old "🌟 Magic Awakens"
+    new "🌟 Пробуждение магии"
+
+    old "🌟 What I Feel For You"
+    new "🌟 Мои чувства к тебе"
+
+    old "🌟 The Barn"
+    new "🌟 Амбар"
+
+    old "🌟 Fair is Fair"
+    new "🌟 Честность прежде всего"
+
+    old "🌟 Her Room at Night"
+    new "🌟 Её комната ночью"
+
+    old "Eris? What's—"
+    new "Эрис? Что…"
+
+    old "I searched the mansion. The training grounds. The garden. The kitchen."
+    new "Я обыскал особняк, тренировочную площадку, сад и кухню."
