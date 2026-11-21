@@ -37,7 +37,7 @@ jobs:
           ]
           with zipfile.ZipFile(apk) as z:
             for member in wanted:
-              out="project/game/"+member.split("assets/x-game/",1)[1].replace(".rpyc",".rpy")
+              out="project/game/"+member.split("assets/x-game/",1)[1].
               os.makedirs(os.path.dirname(out),exist_ok=True)
               with z.open(member) as src,open(out,"wb") as dst: dst.write(src.read())
           PY
