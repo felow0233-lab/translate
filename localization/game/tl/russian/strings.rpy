@@ -965,3 +965,120 @@ translate russian strings:
 
     old "You gained +{} affection with Aisha!"
     new "Ты получил +{} к привязанности Айши!"
+
+    old "But Norn-nee, you always do this! I just wanted to use the comb first!"
+    new "Но Норн-нэ, ты всегда так делаешь! Я просто хотела первой воспользоваться расчёской!"
+
+    old "Because you take everything that's mine without asking, Aisha! This is MINE!"
+    new "Потому что ты постоянно берёшь мои вещи без спроса, Айша! Это МОЁ!"
+
+    old "But it's just a comb... and I'm younger, you should spoil me more!"
+    new "Но это всего лишь расчёска... И я младше, так что ты должна меня баловать!"
+
+    old "Spoil you? You're already way too spoiled! You always get what you want with that little angel face!"
+    new "Баловать тебя? Да тебя и так слишком балуют! Ты всегда добиваешься своего благодаря этому ангельскому личику!"
+
+    old "Hey, hey... what's going on here? Fighting again?"
+    new "Эй, эй... Что здесь происходит? Опять ссоритесь?"
+
+    old "Rudeus-nii! Look what Aisha did!"
+    new "Рудеус-нии! Посмотри, что натворила Айша!"
+
+    old "Norn-nee is being a pain!"
+    new "Норн-нэ опять вредничает!"
+
+    old "She took my comb without asking! And I was using it to fix my hair!"
+    new "Она без спроса взяла мою расчёску! А я как раз причёсывалась!"
+
+    old "Tell her to apologize, Rudeus-nii!"
+    new "Заставь её извиниться, Рудеус-нии!"
+
+    old "Nii-chan! What are you staring at?"
+    new "Нии-тян! На что ты уставился?"
+
+    old "Nothing, nothing! Just thinking you're growing up fast, Norn. You're becoming a beautiful young woman."
+    new "Да ничего, ничего! Просто подумал, как быстро ты взрослеешь, Норн. Ты превращаешься в красивую девушку."
+
+    old "W-what?! Don't just say stuff like that out of nowhere, you idiot!"
+    new "Ч-что?! Не говори такое вдруг ни с того ни с сего, идиот!"
+
+    old "Onii-chan complimenting Norn-nee? That's rare~"
+    new "Онии-тян делает комплименты Норн-нэ? Вот это редкость~"
+
+    old "Calm down, girls. Let's settle this like adults."
+    new "Успокойтесь, девочки. Давайте решим всё по-взрослому."
+
+    old "Adults? You're the worst example, Rudeus-nii!"
+    new "По-взрослому? Да ты сам худший пример, Рудеус-нии!"
+
+    old "Hehe, but Onii-chan always works things out nicely~"
+    new "Хе-хе, но онии-тян всегда умеет всё уладить~"
+
+    old "Alright, alright. Norn, let me see that comb... maybe I can convince Aisha to apologize."
+    new "Ладно, ладно. Норн, покажи мне расчёску... Может, я смогу уговорить Айшу извиниться."
+
+    old "Hmpf... fine."
+    new "Хмф... Ладно."
+
+    old "Well... if you two stop fighting, maybe I'll buy a little present for both of you in town today. What do you think?"
+    new "Ну... если вы перестанете ссориться, может, сегодня я куплю вам обеим подарки в городе. Как вам идея?"
+
+    old "A present? What kind of present?"
+    new "Подарок? Какой ещё подарок?"
+
+    old "I want one! I want one!"
+    new "Я тоже хочу! Я тоже!"
+
+    old "😈 Flirt"
+    new "😈 Флирт"
+
+    old "😏 Interact"
+    new "😏Взаимодействовать"
+
+    old "You've already given Norn a gift today. Try again tomorrow."
+    new "Сегодня ты уже дарил Норн подарок. Попробуй завтра."
+
+    old "Norn, I picked this flower just for you!"
+    new "Норн, я выбрал этот цветок специально для тебя!"
+
+    old "A flower? That's kinda sweet, bro. Thanks!"
+    new "Цветок? Миленько, братик. Спасибо!"
+
+    old "Got you some chocolates, sis!"
+    new "Я принёс тебе шоколад, сестрёнка!"
+
+    old "Chocolates? Yum! You're the best sometimes."
+    new "Шоколад? Вкуснятина! Иногда ты просто лучший."
+
+    old "Here, Norn—this earring is for you."
+    new "Вот, Норн, эта серьга для тебя."
+
+    old "Whoa, jewelry? This is fancy! Are you trying to butter me up?"
+    new "Ого, украшение? Вот это роскошь! Ты что, пытаешься меня задобрить?"
+
+    old "Norn, this necklace is a token of how much I care."
+    new "Норн, это ожерелье — знак того, как много ты для меня значишь."
+
+    old "A premium necklace? Wow, brother... this is amazing!"
+    new "Дорогое ожерелье? Ничего себе, братик... Оно потрясающее!"
+
+    old "I'll wear it every day. Thanks a ton!"
+    new "Я буду носить его каждый день. Огромное спасибо!"
+
+    old "Norn liked the gift! +10 Affection"
+    new "Норн понравился подарок! +10 к привязанности"
+
+    old "Norn liked the gift! +25 Affection"
+    new "Норн понравился подарок! +25 к привязанности"
+
+    old "Norn liked the gift! +50 Affection"
+    new "Норн понравился подарок! +50 к привязанности"
+
+    old "Norn ABSOLUTELY loved the gift! +125 Affection"
+    new "Норн в полном восторге от подарка! +125 к привязанности"
+
+    old "You gained +{} affection with Norn!"
+    new "Ты получил +{} к привязанности Норн!"
+
+    old "You gained +5 affection with Norn!"
+    new "Ты получил +5 к привязанности Норн!"
