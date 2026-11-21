@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - '*.rpyc'
       - 'x-characters_script.zip'
       - 'x-tl.zip'
       - '.github/workflows/decompile-renpy.yml'
@@ -24,34 +25,52 @@ jobs:
           python-version: '3.11'
 
       - name: Download unrpyc
-        run: |
-          git clone --depth 1 https://github.com/CensoredUsername/unrpyc.git tools/unrpyc
+        run: git clone --depth 1 https://github.com/CensoredUsername/unrpyc.git tools/unrpyc
 
-      - name: Extract archives into isolated folders
+      - name: Prepare input files
         run: |
-          mkdir -p work/characters work/tl
+          mkdir -p work/characters work/tl work/root
           unzip -q x-characters_script.zip -d work/characters
           unzip -q x-tl.zip -d work/tl
+          shopt -s nullglob
+          root_scripts=( ./*.rpyc )
+          if (( ${#root_scripts[@]} )); then
+            cp "${root_scripts[@]}" work/root/
+          fi
 
       - name: Decompile compiled Ren'Py scripts
         run: |
           python tools/unrpyc/unrpyc.py work/characters
           python tools/unrpyc/unrpyc.py work/tl
+          if find work/root -type f -name '*.rpyc' -print -quit | grep -q .; then
+            python tools/unrpyc/unrpyc.py work/root
+          fi
 
-      - name: Collect output without touching existing project files
+      - name: Collect output safely
         run: |
-          mkdir -p decompiled/characters decompiled/tl
-          find work/characters -type f \\( -name '*.rpy' -o -name '*.rpym' \\) -print0 | while IFS= read -r -d '' f; do
-            rel="${f#work/characters/}"
-            mkdir -p "decompiled/characters/$(dirname "$rel")"
-            cp "$f" "decompiled/characters/$rel"
-          done
-          find work/tl -type f \\( -name '*.rpy' -o -name '*.rpym' \\) -print0 | while IFS= read -r -d '' f; do
-            rel="${f#work/tl/}"
-            mkdir -p "decompiled/tl/$(dirname "$rel")"
-            cp "$f" "decompiled/tl/$rel"
-          done
-          echo "Generated source files:"
+          python - <<'PY'
+          from pathlib import Path
+          from shutil import copy2
+
+          sources = [
+              ("work/characters", "decompiled/characters"),
+              ("work/tl", "decompiled/tl"),
+              ("work/root", "decompiled/root"),
+          ]
+          count = 0
+          for source_dir, output_dir in sources:
+              source = Path(source_dir)
+              output = Path(output_dir)
+              for path in source.rglob("*"):
+                  if path.is_file() and path.suffix in {".rpy", ".rpym"}:
+                      target = output / path.relative_to(source)
+                      target.parent.mkdir(parents=True, exist_ok=True)
+                      copy2(path, target)
+                      count += 1
+          print(f"Collected {count} source files.")
+          if count == 0:
+              raise SystemExit("No .rpy or .rpym source files were generated or found.")
+          PY
           find decompiled -type f -print
 
       - name: Upload decompiled files as artifact
