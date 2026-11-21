@@ -143,3 +143,105 @@ translate russian strings:
 
     old "Roxy loved the gift! +50 Affection"
     new "Рокси понравился подарок! +50 к привязанности"
+
+    old "Back"
+    new "Назад"
+
+    old "History"
+    new "История"
+
+    old "Skip"
+    new "Пропустить"
+
+    old "Auto"
+    new "Авто"
+
+    old "Save"
+    new "Сохранить"
+
+    old "Q.Save"
+    new "Быстрое сохранение"
+
+    old "Q.Load"
+    new "Быстрая загрузка"
+
+    old "Prefs"
+    new "Настройки"
+
+    old "Start"
+    new "Начать"
+
+    old "Load"
+    new "Загрузить"
+
+    old "Preferences"
+    new "Настройки"
+
+    old "End Replay"
+    new "Завершить повтор"
+
+    old "Main Menu"
+    new "Главное меню"
+
+    old "Quit"
+    new "Выход"
+
+    old "About"
+    new "Об игре"
+
+    old "empty slot"
+    new "пустая ячейка"
+
+    old "Display"
+    new "Экран"
+
+    old "Window"
+    new "В окне"
+
+    old "Fullscreen"
+    new "Полный экран"
+
+    old "Unseen Text"
+    new "Непрочитанный текст"
+
+    old "After Choices"
+    new "После выбора"
+
+    old "Transitions"
+    new "Переходы"
+
+    old "Text Speed"
+    new "Скорость текста"
+
+    old "Auto-Forward Time"
+    new "Время автоперехода"
+
+    old "Textbox Opacity"
+    new "Прозрачность окна текста"
+
+    old "Music Volume"
+    new "Громкость музыки"
+
+    old "Sound Volume"
+    new "Громкость звука"
+
+    old "Test"
+    new "Проверить"
+
+    old "Mute All"
+    new "Отключить весь звук"
+
+    old "The dialogue history is empty."
+    new "История диалогов пуста."
+
+    old "Help"
+    new "Справка"
+
+    old "Keyboard"
+    new "Клавиатура"
+
+    old "Mouse"
+    new "Мышь"
+
+    old "Gamepad"
+    new "Геймпад"
