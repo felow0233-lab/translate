@@ -1268,3 +1268,6 @@ translate russian strings:
 
     old "Shut up! I don't want to hear that from you!"
     new "Замолчи! Я не хочу слышать от тебя такое!"
+
+    old "You met Eris! +5 Affection"
+    new "Ты познакомился с Эрис! +5 к привязанности"
