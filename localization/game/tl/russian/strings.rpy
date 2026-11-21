@@ -2550,3 +2550,7 @@ translate russian strings:
 
     old "(Hehe… this is going to be way more fun than I imagined. And who knows… maybe I'll get a little piece of this cute elf…)"
     new "(Хе-хе… всё будет куда интереснее, чем я представлял. И кто знает… может, мне даже кое-что перепадёт от этой милашки-эльфийки…)"
+
+translate russian strings:
+    old "Don't ask for more (0)"
+    new "Больше ничего не просить (0)"
