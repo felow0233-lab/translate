@@ -460,7 +460,7 @@ translate russian strings:
     new "Она скрестила руки и отвернулась. Её щёки покраснели — то ли от злости, то ли от смущения, я не понял."
 
     old "Fine! ONE week. If you bore me, I'll kick you out myself!"
-    new "Ладно! ОДНА неделя. Если мне станет скучно, я самa тебя вышвырну!"
+    new "Ладно! ОДНА неделя. Если мне станет скучно, я сама тебя вышвырну!"
 
     old "Deal."
     new "По рукам."
@@ -755,3 +755,75 @@ translate russian strings:
 
     old "Call Sylphie"
     new "Позвать Сильфи"
+
+    old "Yes?"
+    new "Да?"
+
+    old "💬Chat"
+    new "💬Поговорить"
+
+    old "🎁Give a gift"
+    new "🎁Подарить подарок"
+
+    old "😏Interact"
+    new "😏Взаимодействовать"
+
+    old "Hey Roxy, I brought you a flower!"
+    new "Рокси, я принёс тебе цветок!"
+
+    old "Oh! A flower for me? Thank you so much."
+    new "Ой! Это мне цветок? Большое спасибо."
+
+    old "Roxy, I got you some fancy chocolates!"
+    new "Рокси, я принёс тебе изысканные конфеты!"
+
+    old "Wow! These look so delicious!"
+    new "Ух ты! Выглядят очень аппетитно!"
+
+    old "Roxy... I want you to have this."
+    new "Рокси... Я хочу, чтобы это было у тебя."
+
+    old "Is that... a jewel!? This is too much!"
+    new "Это... драгоценность?! Это слишком!"
+
+    old "It's so beautiful... I'll treasure it forever!"
+    new "Она такая красивая... Я буду беречь её всю жизнь!"
+
+    old "Premium Necklace"
+    new "Дорогое ожерелье"
+
+    old "Roxy... This necklace represents how much you mean to me."
+    new "Рокси... Это ожерелье показывает, как много ты для меня значишь."
+
+    old "Rudeus... This is breathtaking! I've never seen anything like it!"
+    new "Рудеус... Оно просто потрясающее! Я никогда не видела ничего подобного!"
+
+    old "Thank you so much! This means the world to me!"
+    new "Огромное спасибо! Для меня это очень много значит!"
+
+    old "Roxy ABSOLUTELY loved the gift! +125 Affection"
+    new "Рокси в полном восторге от подарка! +125 к привязанности"
+
+    old "You gained +{} affection with Roxy!"
+    new "Вы получили +{} к привязанности Рокси!"
+
+    old "You need at least 30 affection to unlock this option."
+    new "Для этого варианта нужно не менее 30 очков привязанности."
+
+    old "You need at least 80 affection to unlock this option."
+    new "Для этого варианта нужно не менее 80 очков привязанности."
+
+    old "You need at least 180 affection to unlock this option."
+    new "Для этого варианта нужно не менее 180 очков привязанности."
+
+    old "Ask to see her panties (30)"
+    new "Попросить показать нижнее бельё (30)"
+
+    old "Eat her ass (80)"
+    new "Вернуться"
+
+    old "Ask for anal (180)"
+    new "Вернуться"
+
+    old "Go back"
+    new "Назад"
