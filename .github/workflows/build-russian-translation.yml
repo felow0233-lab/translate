@@ -59,16 +59,13 @@ jobs:
           s=s.replace(marker, marker+'\n\ndefine config.language = "russian"',1)
           open(p,"w",encoding="utf-8").write(s)
 
-          # Fredoka in this APK does not provide the Cyrillic glyphs needed by Russian.
-          # Ren'Py's bundled DejaVuSans is already used by the game's screens.
+          # Use Ren'Py's bundled DejaVuSans font, which supports Cyrillic.
           p="project/game/x-gui.rpy"
           s=open(p,encoding="utf-8-sig").read()
-          for setting in ("gui.text_font", "gui.name_text_font", "gui.interface_text_font"):
-              import re
-              pattern=r'(^\\s*define\\s+'+re.escape(setting)+r'\\s*=\\s*)["\\']Fredoka\\.ttf["\\']'
-              s,n=re.subn(pattern, r'\\1"DejaVuSans.ttf"', s, count=1, flags=re.M)
-              if n != 1:
-                  raise SystemExit("Could not replace font setting: "+setting)
+          count=s.count("Fredoka.ttf")
+          if count < 3:
+              raise SystemExit("Expected GUI font definitions were not found")
+          s=s.replace("Fredoka.ttf", "DejaVuSans.ttf")
           open(p,"w",encoding="utf-8").write(s)
           PY
 
