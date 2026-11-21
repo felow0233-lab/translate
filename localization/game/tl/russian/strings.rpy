@@ -816,14 +816,5 @@ translate russian strings:
     old "You need at least 180 affection to unlock this option."
     new "Для этого варианта нужно не менее 180 очков привязанности."
 
-    old "Ask to see her panties (30)"
-    new "Попросить показать нижнее бельё (30)"
-
-    old "Eat her ass (80)"
-    new "Вернуться"
-
-    old "Ask for anal (180)"
-    new "Вернуться"
-
     old "Go back"
     new "Назад"
