@@ -112,7 +112,20 @@ jobs:
           for path in files:
               rows=path.read_text(encoding="utf-8-sig").splitlines()
               for i,line in enumerate(rows[:-1]):
-                  m=re.match(r'^(\s*old\s+)("(?:\\.|[^"\\])*")(\s*)
+                  m=re.match(r'^\s*old\s+("(?:\\.|[^"\\])*")\s*$',line)
+                  if not m: continue
+                  source_text=json.loads(m.group(1))
+                  if source_text in translations:
+                      rows[i+1]=re.sub(
+                          r'^(\s*new\s+).*$', 
+                          lambda x:x.group(1)+json.dumps(translations[source_text],ensure_ascii=False),
+                          rows[i+1]
+                      )
+                      changed+=1
+              path.write_text("\n".join(rows)+"\n",encoding="utf-8")
+          print("Translated dialogue/string entries applied:",changed)
+          print("Maintained string mappings:",len(strings))
+          print("Dialogue mappings:",len(dialogue))
           PY
           cd renpy-sdk
           ./renpy.sh ../project compile
