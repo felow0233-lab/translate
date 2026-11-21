@@ -4891,3 +4891,93 @@ old "The realization hit her like a thunderbolt."
 
     old "Her gaze traveled down between their bodies."
     new "Её взгляд опустился туда, где соприкасались наши тела."
+
+    old "(...!)"
+    new "(...!)"
+
+    old "(She's asleep. Completely defenseless. I could see her panties if I just...)"
+    new "(Она спит. Совершенно беззащитна. Если бы я только мог заглянуть под её юбку...)"
+
+    old "(No. NO. She's your student. She trusts you. What kind of man are you?)"
+    new "(Нет. НЕТ. Она твоя ученица. Она тебе доверяет. Да что ты за человек такой?)"
+
+    old "(Just a peek. That's all. She'll never know.)"
+    new "(Только одним глазком. И всё. Она никогда не узнает.)"
+
+    old "(...God, I'm disgusting. I'm actually considering this.)"
+    new "(...Боже, какой же я мерзавец. Я ведь и правда об этом подумываю.)"
+
+    old "(She looks so peaceful... so soft. Nothing like the violent hellcat who throws desks at me.)"
+    new "(Она выглядит такой умиротворённой... такой нежной. Совсем не похожа на ту буйную фурию, которая швыряет в меня парты.)"
+
+    old "(What would she feel like? Her skin looks so smooth... those thighs...)"
+    new "(Интересно, какая у неё на ощупь кожа? Такая гладкая... эти бёдра...)"
+
+    old "(STOP. Get up. Walk away. Be a decent human being for ONCE.)"
+    new "(ХВАТИТ. Встань. Уходи. Хоть раз в жизни поступи по-человечески.)"
+
+    old "(...I'm going to hell for this.)"
+    new "(...За такое мне прямая дорога в ад.)"
+
+    old "(I really am the worst kind of person...)"
+    new "(Я и правда конченый мерзавец...)"
+
+    old "(But I can't stop. I don't WANT to stop.)"
+    new "(Но я не могу остановиться. И НЕ ХОЧУ.)"
+
+    old "(...She's beautiful. She's absolutely beautiful.)"
+    new "(...Она прекрасна. Просто невероятно прекрасна.)"
+
+    old "(This is wrong. This is SO wrong. But she's right HERE, spread open in front of me, and I—)"
+    new "(Это неправильно. ОЧЕНЬ неправильно. Но она прямо ЗДЕСЬ, передо мной, и я...)"
+
+    old "(If I touched her right now... if I just ran my finger along that line...)"
+    new "(Если бы я прикоснулся к ней сейчас... провёл пальцем...)"
+
+    old "(She'd never even know. She's deeply asleep. Just one touch. Just to feel...)"
+    new "(Она даже не узнает. Она крепко спит. Одно прикосновение. Просто чтобы почувствовать...)"
+
+    old "(Just the panties. I'll just move them aside. Just to see. That's all.)"
+    new "(Только бельё. Просто отодвину его. Просто посмотреть. И всё.)"
+
+    old "(I won't do anything else. I just need to SEE.)"
+    new "(Больше я ничего не сделаю. Мне нужно только ПОСМОТРЕТЬ.)"
+
+    old "(Oh god. Oh god oh god oh god.)"
+    new "(О боже. О боже, боже, боже.)"
+
+    old "(She's... she's wet. Is she dreaming about something? About... someone?)"
+    new "(Она... возбуждена. Ей что-то снится? Может, кто-то...?)"
+
+    old "(I should stop here. I've already gone too far. WAY too far.)"
+    new "(Мне нужно остановиться. Я уже зашёл слишком далеко. НАМНОГО слишком далеко.)"
+
+    old "(But she's so wet... and warm... and if I just...)"
+    new "(Но она такая тёплая... и если я только...)"
+
+    old "(It's... it's right there. Open. Wet. Waiting.)"
+    new "(Оно... прямо передо мной. Открытое. Влажное. Будто ждёт.)"
+
+    old "(I can feel the heat radiating from it on my thumbs.)"
+    new "(Я чувствую жар, исходящий от неё, кончиками больших пальцев.)"
+
+    old "(Oh... oh fuck...)"
+    new "(Ох... чёрт...)"
+
+    old "(She moved. She MOVED. Is she waking up?!)"
+    new "(Она шевельнулась. ОНА ШЕВЕЛЬНУЛАСЬ. Неужели просыпается?!)"
+
+    old "(...No. Still sleeping. Her body is just... reacting.)"
+    new "(...Нет. Всё ещё спит. Просто её тело... реагирует.)"
+
+    old "(God, she's so soft. So incredibly soft and warm and—)"
+    new "(Боже, какая она нежная. Такая невероятно нежная и тёплая...)"
+
+    old "(Do it. Just... do it. She's right here. She wants it — her body wants it.)"
+    new "(Сделай это. Просто... сделай. Она прямо здесь. Она этого хочет — её тело этого хочет.)"
+
+    old "(NO. No no no. This is insane. She's ASLEEP. I can't—)"
+    new "(НЕТ. Нет, нет, нет. Это безумие. Она СПИТ. Я не могу...)"
+
+    old "(...But what if I just... put the tip in? Just the tip. That's all.)"
+    new "(...Но что, если я просто... введу кончик? Только кончик. И всё.)"
