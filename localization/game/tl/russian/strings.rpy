@@ -2554,3 +2554,21 @@ translate russian strings:
 translate russian strings:
     old "Don't ask for more (0)"
     new "Больше ничего не просить (0)"
+
+    old "She looks away, biting her lip, clearly nervous and aroused at the same time."
+    new "Она отворачивается, прикусывая губу; она явно нервничает и одновременно возбуждена."
+
+    old "She spreads wider, the panties now soaked in the center, outlining the entrance of her pussy."
+    new "Она разводит ноги шире; трусики теперь промокли посередине, очерчивая вход во влагалище."
+
+    old "She brings the tip to her mouth, licking slowly, her shy tongue exploring the glans."
+    new "Она подносит головку к губам и медленно облизывает её, робко исследуя её языком."
+
+    old "She sucks slowly, tongue swirling, saliva dripping down her chin."
+    new "Она медленно посасывает, кружит языком, и слюна стекает по её подбородку."
+
+    old "The vibration of her voice makes Rudeus shudder."
+    new "Дрожь в её голосе заставляет Рудеуса вздрогнуть."
+
+    old "She swallows his thick cum, trying not to make a face."
+    new "Она проглатывает его густую сперму, стараясь не поморщиться."
