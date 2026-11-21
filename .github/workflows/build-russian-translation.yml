@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - ".github/workflows/build-russian-translation.yml"
+      - "localization/game/tl/russian/strings.rpy"
+      - "localization/roxy-safe-dialogue.json"
   workflow_dispatch:
 
 permissions:
