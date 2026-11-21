@@ -1,0 +1,79 @@
+name: Build Russian RenPy translation scripts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download APK from release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p input project/game
+          gh release download apk-source --repo "${GITHUB_REPOSITORY}" --pattern "*.apk" --dir input
+          echo "APK=$(find input -name '*.apk' -print -quit)" >> "$GITHUB_ENV"
+
+      - name: Extract selected game scripts
+        run: |
+          python - <<'PY'
+          import zipfile, os
+          apk=os.environ["APK"]
+          wanted=[
+            "assets/x-game/x-03_init.rpyc",
+            "assets/x-game/x-characters_script/x-06_roxy.rpyc",
+            "assets/x-game/x-gui.rpyc",
+            "assets/x-game/x-intro.rpyc",
+            "assets/x-game/x-options.rpyc",
+            "assets/x-game/x-screens.rpyc",
+            "assets/x-game/x-script.rpyc",
+          ]
+          with zipfile.ZipFile(apk) as z:
+            for member in wanted:
+              out="project/game/"+member.split("assets/x-game/",1)[1].replace(".rpyc",".rpy")
+              os.makedirs(os.path.dirname(out),exist_ok=True)
+              with z.open(member) as src,open(out,"wb") as dst: dst.write(src.read())
+          PY
+          cat > project/game/options.rpy <<'EOF'
+          define config.name = "Mushoku Tensex"
+          define config.version = "0.10.0"
+          EOF
+
+      - name: Decompile source scripts
+        run: |
+          git clone --depth 1 https://github.com/CensoredUsername/unrpyc.git tools/unrpyc
+          find project/game -name '*.rpyc' -print0 | while IFS= read -r -d '' f; do
+            python tools/unrpyc/unrpyc.py "$f"
+          done
+          find project/game -name '*.rpyc' -delete
+
+      - name: Download RenPy 8.5.2 SDK
+        run: |
+          wget -q https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.tar.bz2 -O renpy-sdk.tar.bz2
+          mkdir renpy-sdk
+          tar -xjf renpy-sdk.tar.bz2 -C renpy-sdk --strip-components=1
+          chmod +x renpy-sdk/renpy.sh
+          sudo apt-get update
+          sudo apt-get install -y libgl1 libegl1 libx11-6 libxext6 libxrender1 libxtst6 libxi6 libxrandr2 libxcursor1 libxinerama1 libasound2t64
+
+      - name: Generate Russian translation templates
+        run: |
+          mkdir -p project/game/tl/russian
+          cd renpy-sdk
+          ./renpy.sh ../project translate russian --no-todo
+          ./renpy.sh ../project compile
+          cd ..
+          find project/game/tl/russian -type f -maxdepth 5 -print
+          test -n "$(find project/game/tl/russian -name '*.rpyc' -print -quit)"
+
+      - name: Upload generated translation templates
+        uses: actions/upload-artifact@v4
+        with:
+          name: mushoku-russian-renpy-templates
+          path: project/game/tl/russian/
+          if-no-files-found: error
+          retention-days: 7
