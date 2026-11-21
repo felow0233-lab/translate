@@ -119,6 +119,10 @@ jobs:
                           rows[i+1]=re.sub(r'^(\s*new\s+).*$',lambda x:x.group(1)+json.dumps(strings[old],ensure_ascii=False),rows[i+1])
                           changed+=1
               text="\n".join(rows)+"\n"
+              # Apply every maintained old/new pair directly to generated dialogue
+              # and UI translation scripts as well as the string translation blocks.
+              for old,new in strings.items():
+                  text=text.replace(json.dumps(old,ensure_ascii=False),json.dumps(new,ensure_ascii=False))
               for old,new in dialogue.items():
                   text=text.replace(json.dumps(old,ensure_ascii=False),json.dumps(new,ensure_ascii=False))
               path.write_text(text,encoding="utf-8")
