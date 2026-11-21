@@ -41,8 +41,6 @@ translate russian strings:
     old "Main Menu"
     new "Главное меню"
 
-    old "Return"
-    new "Назад"
 
     old "Quit"
     new "Выход"
@@ -104,38 +102,16 @@ translate russian strings:
     old "🕵️ Black Merchant"
     new "🕵️ Чёрный торговец"
 
-    old "💬Chat"
-    new "💬Поговорить"
 
-    old "🎁Give a gift"
-    new "🎁Подарить подарок"
 
-    old "😏Interact"
-    new "😏Взаимодействовать"
 
-    old "Hire her as your tutor"
-    new "Нанять её учителем"
 
-    old "You hired Roxy as your magic tutor!"
-    new "Ты нанял Рокси учителем магии!"
 
-    old "Simple Flower"
-    new "Простой цветок"
 
-    old "Box of Chocolates"
-    new "Коробка шоколадных конфет"
 
-    old "Diamond Earring"
-    new "Бриллиантовая серьга"
 
-    old "Roxy loved the gift! +10 Affection"
-    new "Рокси понравился подарок! +10 к привязанности"
 
-    old "Roxy loved the gift! +25 Affection"
-    new "Рокси понравился подарок! +25 к привязанности"
 
-    old "Roxy loved the gift! +50 Affection"
-    new "Рокси понравился подарок! +50 к привязанности"
 
 translate russian roxy_pre_menu:
     scene bg taverna with fade
