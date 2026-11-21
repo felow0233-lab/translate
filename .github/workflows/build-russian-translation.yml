@@ -58,6 +58,18 @@ jobs:
           if marker not in s: raise SystemExit("Could not find original game version setting")
           s=s.replace(marker, marker+'\n\ndefine config.language = "russian"',1)
           open(p,"w",encoding="utf-8").write(s)
+
+          # Fredoka in this APK does not provide the Cyrillic glyphs needed by Russian.
+          # Ren'Py's bundled DejaVuSans is already used by the game's screens.
+          p="project/game/x-gui.rpy"
+          s=open(p,encoding="utf-8-sig").read()
+          for setting in ("gui.text_font", "gui.name_text_font", "gui.interface_text_font"):
+              import re
+              pattern=r'(^\\s*define\\s+'+re.escape(setting)+r'\\s*=\\s*)["\\']Fredoka\\.ttf["\\']'
+              s,n=re.subn(pattern, r'\\1"DejaVuSans.ttf"', s, count=1, flags=re.M)
+              if n != 1:
+                  raise SystemExit("Could not replace font setting: "+setting)
+          open(p,"w",encoding="utf-8").write(s)
           PY
 
       - name: Download RenPy 8.5.2 SDK
@@ -112,6 +124,9 @@ jobs:
           ./renpy.sh ../project compile
           cd ..
           test -f project/game/x-options.rpyc
+          test -f project/game/x-gui.rpyc
+          grep -q 'DejaVuSans.ttf' project/game/x-gui.rpy
+          ! grep -q 'Fredoka.ttf' project/game/x-gui.rpy
           test -f project/game/tl/russian/x-characters_script/x-06_roxy.rpyc
           test -f project/game/tl/russian/x-screens.rpyc
           test -f project/game/tl/russian/x-script.rpyc
@@ -129,6 +144,9 @@ jobs:
               if rel == "common.rpyc": continue
               additions["assets/x-game/x-tl/x-russian/"+rel]=p
           additions["assets/x-game/x-options.rpyc"]=pathlib.Path("project/game/x-options.rpyc")
+          additions["assets/x-game/x-gui.rpyc"]=pathlib.Path("project/game/x-gui.rpyc")
+          if not additions["assets/x-game/x-gui.rpyc"].is_file():
+              raise SystemExit("Compiled GUI script missing")
           if not any("x-characters_script/x-06_roxy.rpyc" in k for k in additions):
               raise SystemExit("Compiled Roxy translation missing")
           with zipfile.ZipFile(src,"r") as zin, zipfile.ZipFile(out,"w",allowZip64=True) as zout:
