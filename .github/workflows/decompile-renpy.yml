@@ -1,0 +1,74 @@
+name: Decompile Ren'Py scripts
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'x-characters_script.zip'
+      - 'x-tl.zip'
+      - '.github/workflows/decompile-renpy.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  decompile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download unrpyc
+        run: |
+          git clone --depth 1 https://github.com/CensoredUsername/unrpyc.git tools/unrpyc
+
+      - name: Extract archives into isolated folders
+        run: |
+          mkdir -p work/characters work/tl
+          unzip -q x-characters_script.zip -d work/characters
+          unzip -q x-tl.zip -d work/tl
+
+      - name: Decompile compiled Ren'Py scripts
+        run: |
+          python tools/unrpyc/unrpyc.py work/characters
+          python tools/unrpyc/unrpyc.py work/tl
+
+      - name: Collect output without touching existing project files
+        run: |
+          mkdir -p decompiled/characters decompiled/tl
+          find work/characters -type f \\( -name '*.rpy' -o -name '*.rpym' \\) -print0 | while IFS= read -r -d '' f; do
+            rel="${f#work/characters/}"
+            mkdir -p "decompiled/characters/$(dirname "$rel")"
+            cp "$f" "decompiled/characters/$rel"
+          done
+          find work/tl -type f \\( -name '*.rpy' -o -name '*.rpym' \\) -print0 | while IFS= read -r -d '' f; do
+            rel="${f#work/tl/}"
+            mkdir -p "decompiled/tl/$(dirname "$rel")"
+            cp "$f" "decompiled/tl/$rel"
+          done
+          echo "Generated source files:"
+          find decompiled -type f -print
+
+      - name: Upload decompiled files as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: renpy-decompiled-sources
+          path: decompiled/
+          if-no-files-found: error
+
+      - name: Commit decompiled sources
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add decompiled/
+          if git diff --cached --quiet; then
+            echo "No new decompiled files to commit."
+          else
+            git commit -m "Add decompiled Ren'Py source files"
+            git push
+          fi
