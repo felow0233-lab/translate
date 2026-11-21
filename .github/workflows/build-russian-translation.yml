@@ -26,7 +26,7 @@ jobs:
       - name: Extract selected game scripts
         run: |
           python - <<'PY'
-          import zipfile, os
+          import zipfile, os, pathlib
           apk=os.environ["APK"]
           with zipfile.ZipFile(apk) as z:
             members=[
