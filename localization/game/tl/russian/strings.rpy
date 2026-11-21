@@ -818,3 +818,90 @@ translate russian strings:
 
     old "Go back"
     new "Назад"
+
+    old "You step into the tavern, the warm smell of ale and roasted meat hanging in the air."
+    new "Ты заходишь в таверну, где в воздухе витает тёплый запах эля и жареного мяса."
+
+    old "(Hm? Who's that, sitting all alone in the back?)"
+    new "(Хм? Кто это там сидит совсем один в дальнем углу?)"
+
+    old "(...Huh. Cute. Really cute, actually.)"
+    new "(...Ого. Симпатичная. Даже очень.)"
+
+    old "(Wonder what she's doing here all by herself.)"
+    new "(Интересно, что она здесь делает совсем одна.)"
+
+    old "Hey there. Mind if I join you for a bit?"
+    new "Привет. Не возражаешь, если я немного посижу с тобой?"
+
+    old "Oh! Um... s-sure, go ahead..."
+    new "Ой! Эм... к-конечно, присаживайся..."
+
+    old "So, what's a girl like you doing all alone in a place like this?"
+    new "И что такая девушка, как ты, делает в таком месте в полном одиночестве?"
+
+    old "I-I'm not just 'a girl'... I'm a magic tutor, actually."
+    new "Я-я не просто «девушка»... Вообще-то я учитель магии."
+
+    old "(A magic tutor? And cute on top of that... heh, lucky me.)"
+    new "(Учитель магии? Да ещё и симпатичная... Хе-хе, вот мне повезло.)"
+
+    old "A magic tutor, huh? That's pretty impressive."
+    new "Учитель магии, значит? Впечатляет."
+
+    old "I-I know I might not look the part, but I really do know my magic."
+    new "Я-знаю, что внешне на него не похожа, но я действительно хорошо владею магией."
+
+    old "I don't doubt it for a second. So... how much would it cost to have you teach me?"
+    new "Я ни капли в этом не сомневаюсь. И сколько... будет стоить урок?"
+
+    old "I charge 25 gold coins per lesson."
+    new "Я беру 25 золотых монет за один урок."
+
+    old "Sounds fair. Honestly, I could really use someone like you around."
+    new "Звучит вполне разумно. Честно говоря, мне бы очень пригодился такой учитель."
+
+    old "Hire her as your tutor"
+    new "Нанять её учителем"
+
+    old "Alright, you're hired. Welcome aboard, teacher."
+    new "Отлично, ты принята. Добро пожаловать, учитель."
+
+    old "R-really?! You mean it?"
+    new "П-Правда?! Ты серьёзно?"
+
+    old "Roxy's face lights up, a huge smile spreading across her face."
+    new "Лицо Рокси озаряется радостью, и она широко улыбается."
+
+    old "Thank you so much! I promise I'll be a great tutor for you!"
+    new "Большое спасибо! Обещаю, я стану для тебя отличным учителем!"
+
+    old "You hired Roxy as your magic tutor!"
+    new "Ты нанял Рокси в качестве учителя магии!"
+
+    old "So, Roxy… how's your day going?"
+    new "Ну что, Рокси… как проходит твой день?"
+
+    old "Oh… It's been good… Thank you for asking!"
+    new "О… Всё хорошо… Спасибо, что спросил!"
+
+    old "Simple Flower"
+    new "Простой цветок"
+
+    old "Box of Chocolates"
+    new "Коробка конфет"
+
+    old "Diamond Earring"
+    new "Бриллиантовая серьга"
+
+    old "Roxy loved the gift! +10 Affection"
+    new "Рокси понравился подарок! +10 к привязанности"
+
+    old "Roxy loved the gift! +25 Affection"
+    new "Рокси понравился подарок! +25 к привязанности"
+
+    old "Roxy loved the gift! +50 Affection"
+    new "Рокси понравился подарок! +50 к привязанности"
+
+    old "You gained +{} affection with Roxy!"
+    new "Ты получил +{} к привязанности Рокси!"
