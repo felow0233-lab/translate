@@ -482,3 +482,216 @@ translate russian strings:
 
     old "I won't give up on her."
     new "Я не сдамся."
+
+    old "Another sunny afternoon in the Buena village. Not bad for a little walk… maybe something interesting will show up."
+    new "Ещё один солнечный день в деревне Буэна. Неплохо прогуляться… может, случится что-нибудь интересное."
+
+    old "Trained magic in the morning, helped Zenith in the garden… now it's time to relax a bit."
+    new "Утром я тренировался в магии, помогал Зенит в саду… теперь можно немного отдохнуть."
+
+    old "Suddenly, cruel laughter and muffled screams come from a clearing near the village exit."
+    new "Вдруг со стороны поляны у выхода из деревни доносятся жестокий смех и приглушённые крики."
+
+    old "Huh? That doesn't sound like kids playing… Better check it out."
+    new "Хм? Не похоже, что дети просто играют… Надо проверить."
+
+    old "In the clearing, two older boys from the village have formed a circle around a small figure. Stones fly occasionally, hitting the ground near her."
+    new "На поляне двое старших деревенских мальчишек окружили кого-то маленького. Время от времени они бросают камни, которые падают рядом с ней."
+
+    old "In the center, a green-haired elf girl is curled up, hugging her knees and trembling in fear."
+    new "В центре сидит свернувшаяся калачиком эльфийка с зелёными волосами. Она обхватила колени руками и дрожит от страха."
+
+    old "Look at the weird green-haired elf again!"
+    new "Опять взгляните на эту странную эльфийку с зелёными волосами!"
+
+    old "Thought we forgot about you? This ain't a place for pointy-eared freaks!"
+    new "Думала, мы о тебе забыли? Таким ушастым уродцам здесь не место!"
+
+    old "Please stop… I just came to gather some medicinal herbs…"
+    new "Пожалуйста, прекратите… Я просто пришла собрать лекарственные травы…"
+
+    old "The girl tries to curl up even more, hugging her knees tightly. Her light-green hair is messy, with some leaves stuck in it, and there are light scratches on her arms where the stones grazed her."
+    new "Девочка ещё сильнее сжимается в комок, крепко обхватив колени. Её светло-зелёные волосы растрепались, в них застряли листья, а на руках видны царапины от камней."
+
+    old "(These idiots… I'm so fucking tired of this kind of shit in the village.)"
+    new "(Идиоты… Как же меня достала вся эта хрень в деревне.)"
+
+    old "(If I don't do something, this girl is really gonna get hurt.)"
+    new "(Если я ничего не предприму, эта девочка и правда пострадает.)"
+
+    old "You approach the clearing."
+    new "Ты подходишь к поляне."
+
+    old "Hey! You three. Cut that shit out right now."
+    new "Эй! Вы трое. Немедленно прекратите!"
+
+    old "Oh look, the rich Greyrat boy came to play hero."
+    new "О, смотрите-ка, богатенький Грейрат решил поиграть в героя."
+
+    old "Get lost, Rudeus. This doesn't concern you!"
+    new "Проваливай, Рудеус. Тебя это не касается!"
+
+    old "(Fucking cowards… Two against one defenseless girl.)"
+    new "(Трусливые ублюдки… Двое против беззащитной девочки.)"
+
+    old "Intimidate with magic"
+    new "Запугать магией"
+
+    old "Last chance. Get the fuck out of here before I lose my patience."
+    new "Последний шанс. Убирайтесь отсюда, пока я не потерял терпение."
+
+    old "Rudeus slowly raises his hand. The air around him becomes humid, and a huge spinning sphere of water forms above the boys, swirling with pressure."
+    new "Рудеус медленно поднимает руку. Воздух вокруг становится влажным, а над мальчишками формируется огромная вращающаяся сфера воды."
+
+    old "Holy shit… he actually knows real magic!"
+    new "Вот чёрт… он и правда владеет настоящей магией!"
+
+    old "Run, run!!"
+    new "Бежим, скорее!!"
+
+    old "The two stumble over each other trying to escape."
+    new "Они путаются друг у друга под ногами, пытаясь сбежать."
+
+    old "Think you're getting away with it, huh? Tsk tsk…"
+    new "Думаете, вам это сойдёт с рук? Цок-цок…"
+
+    old "The water sphere shoots toward the boys, who disappear screaming into the trees."
+    new "Сфера воды устремляется к мальчишкам, и те с криками скрываются среди деревьев."
+
+    old "Solve it with fists"
+    new "Решить кулаками"
+
+    old "Alright. If that's how you want it…"
+    new "Ладно. Раз вы сами напросились…"
+
+    old "Rudeus moves fast. A controlled punch to the stomach of the first one — the older boy is already running before he even gets hit."
+    new "Рудеус действует быстро. Он наносит первому точный удар в живот — мальчишка бросается бежать ещё до того, как успевает получить второй."
+
+    old "This guy's way too strong!"
+    new "Да он слишком сильный!"
+
+    old "Let's get the hell out!"
+    new "Валим отсюда!"
+
+    old "Rudeus slowly raises his hand. The air becomes humid again, and a huge spinning sphere of water forms in front of him."
+    new "Рудеус снова медленно поднимает руку. Воздух становится влажным, и перед ним возникает огромная вращающаяся сфера воды."
+
+    old "Next time I see you around here, I won't be so nice."
+    new "В следующий раз, когда я вас здесь увижу, я не буду таким добрым."
+
+    old "Silence returns to the clearing. The elf girl is still curled up, trembling slightly."
+    new "На поляне снова воцаряется тишина. Эльфийка всё ещё сидит, свернувшись калачиком, и слегка дрожит."
+
+    old "Hey… they're gone. You can get up. They won't be back anytime soon."
+    new "Эй… они ушли. Можешь вставать. Скоро они не вернутся."
+
+    old "She slowly lifts her face. Big, teary green eyes stare at Rudeus with a mix of fear and surprise."
+    new "Она медленно поднимает голову. Большие зелёные глаза, полные слёз, смотрят на Рудеуса со страхом и удивлением."
+
+    old "Th-thank you… I… I really thought I was going to get badly hurt this time…"
+    new "С-спасибо… Я… я правда думала, что в этот раз сильно пострадаю…"
+
+    old "Not while I'm around."
+    new "Пока я рядом, этого не случится."
+
+    old "My name is Rudeus Greyrat. And you?"
+    new "Меня зовут Рудеус Грейрат. А тебя?"
+
+    old "S-Sylphiette… but you can call me Sylphie."
+    new "С-Сильфиетта… но можешь звать меня Сильфи."
+
+    old "You… used magic? That water ball was amazing! I could never do anything like that…"
+    new "Ты… использовал магию? Тот водяной шар был потрясающим! Я бы никогда так не смогла…"
+
+    old "Hehe, just a basic trick. You like magic?"
+    new "Хе-хе, это всего лишь простой приём. Тебе нравится магия?"
+
+    old "I love it! But… I'm terrible at it. Everyone says I'll never learn properly because I'm half-human."
+    new "Обожаю! Но… у меня совсем не получается. Все говорят, что я никогда не освою магию как следует, потому что я полу-человек."
+
+    old "(Golden opportunity. Time to show off my teacher skills.)"
+    new "(Отличная возможность. Пора показать свои педагогические навыки.)"
+
+    old "Nonsense. It's just a matter of having the right teacher."
+    new "Глупости. Всё дело лишь в том, чтобы найти хорошего учителя."
+
+    old "If you want, I can teach you chantless magic. I'm sure you'll be able to do it."
+    new "Если хочешь, я могу научить тебя магии без заклинаний. Уверен, у тебя получится."
+
+    old "R-really?! You'd do that… for a total stranger?"
+    new "П-Правда?! Ты готов это сделать… для совершенно незнакомого человека?"
+
+    old "After saving you, you're not a stranger anymore. And I like teaching motivated people."
+    new "После того как я тебя спас, ты уже не незнакомка. К тому же мне нравится учить тех, кто действительно хочет заниматься."
+
+    old "Thank you… really. You're the first person in the village who's ever stood up for me."
+    new "Спасибо… правда. Ты первый человек в деревне, который когда-либо заступился за меня."
+
+    old "She slowly stands up, brushing the dirt off her simple clothes. A few leaves still cling to her hair."
+    new "Она медленно поднимается, отряхивая простую одежду. В волосах всё ещё запуталось несколько листьев."
+
+    old "Do you live far? Those idiots might come back with friends."
+    new "Ты далеко живёшь? Эти идиоты могут вернуться с друзьями."
+
+    old "I live in the forest… it's not too far, but…"
+    new "Я живу в лесу… Это не очень далеко, но…"
+
+    old "Then I'll walk you home. Just to be safe. Doesn't cost me anything."
+    new "Тогда я провожу тебя домой. Так будет безопаснее. Мне это ничего не стоит."
+
+    old "N-no need to trouble yourself!"
+    new "Н-не стоит себя утруждать!"
+
+    old "It's no trouble. Let's go?"
+    new "Это совсем не трудно. Пойдём?"
+
+    old "Sylphie hesitates for a second, then nods shyly."
+    new "Сильфи на мгновение замешкалась, а затем застенчиво кивнула."
+
+    old "The two walk along the narrow forest path. The afternoon sun filters through the leaves, creating patches of light on the ground."
+    new "Они идут по узкой лесной тропинке. Послеобеденное солнце пробивается сквозь листву, оставляя светлые пятна на земле."
+
+    old "You… are really strong. And kind. Most people here avoid me because of my ears."
+    new "Ты… очень сильный. И добрый. Большинство людей здесь сторонятся меня из-за моих ушей."
+
+    old "They're so cute. Who wouldn't want little ears like that?"
+    new "Они такие милые. Кому бы не понравились такие ушки?"
+
+    old "C-cute…? N-no one has ever said that before…"
+    new "М-милые…? Н-никто раньше мне такого не говорил…"
+
+    old "She lowers her head, ears trembling slightly from embarrassment."
+    new "Она опускает голову, и её уши слегка дрожат от смущения."
+
+    old "After about fifteen minutes, they arrive at a simple wooden cottage surrounded by tall trees. A small herb garden in front."
+    new "Примерно через пятнадцать минут они приходят к простому деревянному домику, окружённому высокими деревьями. Перед домом разбит небольшой сад с травами."
+
+    old "We're here… this is my house."
+    new "Вот мы и пришли… Это мой дом."
+
+    old "It's really cozy. I like it."
+    new "Здесь очень уютно. Мне нравится."
+
+    old "You live alone here?"
+    new "Ты здесь живёшь одна?"
+
+    old "No, I live with my parents and my brother."
+    new "Нет, я живу с родителями и братом."
+
+    old "Ah, nice. They must be happy to have you back."
+    new "Понятно. Наверное, они рады, что ты вернулась."
+
+    old "Y-yeah… Thank you for walking me home, Rudeus."
+    new "Д-да… Спасибо, что проводил меня домой, Рудеус."
+
+    old "I… I'm going to take a bath now. I'm all dirty and have dirt in my hair because of those boys…"
+    new "Я… пойду приму ванну. Я вся испачкалась, и в волосах грязь из-за тех мальчишек…"
+
+    old "No problem. Rest well. I'll come by tomorrow to start the lessons, okay?"
+    new "Не за что. Хорошенько отдохни. Завтра я зайду, и мы начнём занятия, хорошо?"
+
+    old "Okay! I… I'll be waiting."
+    new "Хорошо! Я… буду ждать."
+
+    old "Sylphie waves shyly from the door, goes inside, and slowly closes it. Rudeus stands there for a second, staring at the house."
+    new "Сильфи застенчиво машет рукой с порога, заходит внутрь и медленно закрывает дверь. Рудеус ещё немного стоит, глядя на дом."
