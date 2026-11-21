@@ -1373,3 +1373,51 @@ translate russian strings:
 
     old "Zenith ABSOLUTELY loved the gift! +125 Affection"
     new "Зенит ОЧЕНЬ понравился подарок! +125 к привязанности"
+
+    old "Young Master?"
+    new "Молодой господин?"
+
+    old "So, lilia!? How's your day going?"
+    new "Ну что, Лилия!? Как проходит твой день?"
+
+    old "Same as always, cleaning..."
+    new "Как обычно, занимаюсь уборкой…"
+
+    old "But... Thanks for asking, young master."
+    new "Но… спасибо, что спросили, молодой господин."
+
+    old "You gained +{} affection with Lilia!"
+    new "Ты получил +{} к привязанности Лилии!"
+
+    old "Hey Lilia, I brought you a flower!"
+    new "Эй, Лилия, я принёс тебе цветок!"
+
+    old "Oh! A flower for me? Thanks..."
+    new "Ой! Мне цветок? Спасибо…"
+
+    old "Lilia loved the gift! +10 Affection"
+    new "Лилии понравился подарок! +10 к привязанности"
+
+    old "Lilia, I got you some fancy chocolates!"
+    new "Лилия, я принёс тебе хорошие шоколадные конфеты!"
+
+    old "Lilia loved the gift! +25 Affection"
+    new "Лилии понравился подарок! +25 к привязанности"
+
+    old "Lilia... I want you to have this."
+    new "Лилия… Я хочу, чтобы это было у вас."
+
+    old "Lilia loved the gift! +50 Affection"
+    new "Лилии понравился подарок! +50 к привязанности"
+
+    old "Lilia... This premium necklace is a symbol of my appreciation for you."
+    new "Лилия… Это дорогое ожерелье — знак моей признательности вам."
+
+    old "Young master... This is exquisite! I'm truly honored!"
+    new "Молодой господин… Оно великолепно! Для меня это большая честь!"
+
+    old "I will cherish this always. Thank you so much!"
+    new "Я всегда буду бережно его хранить. Большое вам спасибо!"
+
+    old "Lilia ABSOLUTELY loved the gift! +125 Affection"
+    new "Лилии ОЧЕНЬ понравился подарок! +125 к привязанности"
