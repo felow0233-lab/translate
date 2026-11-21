@@ -1421,3 +1421,375 @@ translate russian strings:
 
     old "Lilia ABSOLUTELY loved the gift! +125 Affection"
     new "Лилии ОЧЕНЬ понравился подарок! +125 к привязанности"
+
+    old "We already talked today! Stop bothering me! ...I mean, come back tomorrow!"
+    new "Мы уже сегодня разговаривали! Перестань меня доставать! …То есть приходи завтра!"
+
+    old "The First Lesson"
+    new "Первый урок"
+
+    old "She Trusts You"
+    new "Она тебе доверяет"
+
+    old "Magic Awakens"
+    new "Пробуждение магии"
+
+    old "What I Feel For You"
+    new "Мои чувства к тебе"
+
+    old "The Barn"
+    new "Амбар"
+
+    old "Fair is Fair"
+    new "Честность прежде всего"
+
+    old "Her Room at Night"
+    new "Её комната ночью"
+
+    old "Teach her magic"
+    new "Обучить её магии"
+
+    old "Spar with her"
+    new "Потренироваться с ней в бою"
+
+    old "Study together"
+    new "Позаниматься вместе"
+
+    old "Talk"
+    new "Поговорить"
+
+    old "Nevermind"
+    new "Неважно"
+
+    old "👋 Leave"
+    new "👋 Уйти"
+
+    old "You gained +5 affection with Eris!"
+    new "Ты получил +5 к привязанности Эрис!"
+
+    old "+5 Affection with Eris!"
+    new "+5 к привязанности Эрис!"
+
+    old "Event complete! +5 Affection"
+    new "Событие завершено! +5 к привязанности"
+
+    old "Eris? You're... already here?"
+    new "Эрис? Ты… уже здесь?"
+
+    old "Don't act so surprised! I can be on time if I WANT to!"
+    new "Не делай такое удивлённое лицо! Я могу приходить вовремя, когда ЗАХОЧУ!"
+
+    old "Right. Well, let's start today's lesson. We'll—"
+    new "Ладно. Тогда начнём сегодняшний урок. Мы…"
+
+    old "Magic. I want to learn MAGIC today."
+    new "Магия. Сегодня я хочу изучать МАГИЮ."
+
+    old "Magic? Really? I thought magic was 'for losers.'"
+    new "Магия? Правда? Я думал, ты считала магию «занятием для неудачников»."
+
+    old "I NEVER said that! ...Okay maybe I said that. But I changed my mind!"
+    new "Я НИКОГДА такого не говорила! …Ладно, может, и говорила. Но я передумала!"
+
+    old "Ghislaine told me that combining magic with swordplay makes you unstoppable."
+    new "Гислейн сказала, что сочетание магии и фехтования делает бойца непобедимым."
+
+    old "And I want to be UNSTOPPABLE."
+    new "А я хочу стать НЕПОБЕДИМОЙ."
+
+    old "Fair enough. Let's start with the basics. Try to focus your mana in your palm."
+    new "Справедливо. Начнём с основ. Попробуй сосредоточить ману в ладони."
+
+    old "HRRRRRGH!"
+    new "А-А-А-АРГХ!"
+
+    old "Eris, you don't need to—"
+    new "Эрис, тебе не обязательно…"
+
+    old "...DID YOU SEE THAT?!"
+    new "…ТЫ ЭТО ВИДЕЛ?!"
+
+    old "I did! That was great for a first—"
+    new "Видел! Для первой попытки это было замечатель…"
+
+    old "I DID MAGIC! I ACTUALLY DID MAGIC!"
+    new "У МЕНЯ ПОЛУЧИЛАСЬ МАГИЯ! Я И ПРАВДА СМОГЛА!"
+
+    old "Did you see it?! The spark?! It was a spark, right?!"
+    new "Ты видел?! Искру?! Это же была искра, да?!"
+
+    old "It was definitely a spark. With practice, you could turn that into—"
+    new "Определённо искра. Если потренироваться, можно превратить её в…"
+
+    old "T-That was... I was just excited! Don't think anything of it!"
+    new "Э-Это… Я просто обрадовалась! Не придавай этому значения!"
+
+    old "I didn't say anything."
+    new "Я ничего не говорил."
+
+    old "Your FACE said something! Stop making that face!"
+    new "У тебя НА ЛИЦЕ всё написано! Перестань так смотреть!"
+
+    old "...Rudeus."
+    new "…Рудеус."
+
+    old "Yeah?"
+    new "Да?"
+
+    old "Same time tomorrow. Be here."
+    new "Завтра в то же время. Будь здесь."
+
+    old "...And bring something harder to learn. This easy stuff is beneath me!"
+    new "…И придумай что-нибудь посложнее. Такая простая магия не для меня!"
+
+    old "Eris? Are you okay?"
+    new "Эрис? Ты в порядке?"
+
+    old "...I'm FINE. Go away."
+    new "…Я В ПОРЯДКЕ. Уходи."
+
+    old "You don't look fine."
+    new "Не похоже, что ты в порядке."
+
+    old "I SAID I'm fine! Are you deaf?!"
+    new "Я СКАЗАЛА, что всё хорошо! Ты что, глухой?!"
+
+    old "You know, it's okay to not be fine sometimes."
+    new "Знаешь, иногда совершенно нормально чувствовать себя неважно."
+
+    old "...The other tutors. Before you. They all quit."
+    new "…Другие учителя. До тебя. Они все ушли."
+
+    old "Every single one. They said I was 'unteachable.' 'Impossible.' 'A lost cause.'"
+    new "Все до единого. Они говорили, что меня «невозможно обучить», что я «безнадёжна» и что со мной ничего не выйдет."
+
+    old "Father yelled at me every time. 'Why can't you behave? Why can't you be proper?'"
+    new "Отец каждый раз кричал на меня: «Почему ты не можешь вести себя прилично? Почему не можешь быть воспитанной?»"
+
+    old "Eris..."
+    new "Эрис…"
+
+    old "I TRIED! I tried to be good! But I just... I can't sit still! I can't be quiet!"
+    new "Я ПЫТАЛАСЬ! Я старалась вести себя хорошо! Но я просто… не могу усидеть на месте! Не могу молчать!"
+
+    old "My body wants to MOVE and FIGHT and everyone tells me that's WRONG!"
+    new "Мне хочется ДВИГАТЬСЯ и СРАЖАТЬСЯ, а все вокруг говорят, что это НЕПРАВИЛЬНО!"
+
+    old "...So I stopped trying. If everyone thinks I'm a monster, then FINE. I'll be a monster."
+    new "…Вот я и перестала стараться. Если все считают меня чудовищем, ПРЕКРАСНО. Буду чудовищем."
+
+    old "You're not a monster, Eris."
+    new "Ты не чудовище, Эрис."
+
+    old "What do YOU know?!"
+    new "Да что ТЫ знаешь?!"
+
+    old "I know that a monster wouldn't cry about being called one."
+    new "Знаю, что настоящее чудовище не стало бы плакать из-за таких слов."
+
+    old "I'm NOT crying!"
+    new "Я НЕ ПЛАЧУ!"
+
+    old "Eris. The other tutors were wrong. You're not unteachable."
+    new "Эрис. Другие учителя ошибались. Тебя можно обучить."
+
+    old "You learn differently. You need to MOVE, to DO things. There's nothing wrong with that."
+    new "Ты просто учишься по-другому. Тебе нужно ДВИГАТЬСЯ и ДЕЛАТЬ что-то. В этом нет ничего плохого."
+
+    old "I'll teach you in a way that works for YOU. Not the other way around."
+    new "Я буду учить тебя так, как подходит ИМЕННО ТЕБЕ, а не наоборот."
+
+    old "...You promise?"
+    new "…Обещаешь?"
+
+    old "I promise."
+    new "Обещаю."
+
+    old "...If you break that promise, I'll break your legs."
+    new "…Если нарушишь обещание, я переломаю тебе ноги."
+
+    old "Wouldn't expect anything less."
+    new "Другого я и не ожидал."
+
+    old "...We never talk about this. EVER."
+    new "…Мы никогда не будем об этом говорить. НИКОГДА."
+
+    old "And I was NOT crying!"
+    new "И я НЕ плакала!"
+
+    old "...Thank you. ...IDIOT!"
+    new "…Спасибо. …ИДИОТ!"
+
+    old "Alright, Eris. Remember what I taught you? Channel the mana through your arm as you strike."
+    new "Хорошо, Эрис. Помнишь, чему я тебя учил? Направляй ману через руку во время удара."
+
+    old "I KNOW! Stop repeating yourself!"
+    new "Я ЗНАЮ! Хватит повторять одно и то же!"
+
+    old "HAAAA!"
+    new "ХА-А-А!"
+
+    old "...!"
+    new "…!"
+
+    old "...Did... did that just happen?!"
+    new "…Это… это сейчас действительно произошло?!"
+
+    old "You combined Sword God Style with fire magic. That was... incredible."
+    new "Ты объединила стиль Бога Меча с огненной магией. Это было… невероятно."
+
+    old "I... I did that?! I ACTUALLY DID THAT?!"
+    new "Я… я это сделала?! У МЕНЯ И ПРАВДА ПОЛУЧИЛОСЬ?!"
+
+    old "RUDEUS! DID YOU SEE?! I'M A GENIUS!"
+    new "РУДЕУС! ТЫ ВИДЕЛ?! Я ГЕНИЙ!"
+
+    old "Well, I wouldn't go THAT far—"
+    new "Ну, я бы не стал заходить ТАК далеко…"
+
+    old "Shut up! I'm a GENIUS and you KNOW IT!"
+    new "Молчи! Я ГЕНИЙ, и ты ЭТО ЗНАЕШЬ!"
+
+    old "Teach me more! I want to learn MORE! What else can I do?!"
+    new "Научи меня ещё! Я хочу знать БОЛЬШЕ! Что ещё я могу сделать?!"
+
+    old "We can try wind enchantment next. It would increase your sword speed."
+    new "В следующий раз можем попробовать усиление ветром. Оно повысит скорость твоего меча."
+
+    old "YES! Let's do it NOW!"
+    new "ДА! Давай прямо СЕЙЧАС!"
+
+    old "Hmm?"
+    new "М-м?"
+
+    old "You're... actually a good teacher."
+    new "Ты… на самом деле хороший учитель."
+
+    old "DON'T let it go to your head! I'm just stating a FACT!"
+    new "ТОЛЬКО НЕ ЗАЗНАВАЙСЯ! Я просто констатирую ФАКТ!"
+
+    old "GHISLAINE! WATCH THIS! WATCH WHAT I CAN DO!"
+    new "ГИСЛЕЙН! СМОТРИ! СМОТРИ, ЧТО Я УМЕЮ!"
+
+    old "...I don't know what's WRONG with me, Ghislaine!"
+    new "…Не понимаю, ЧТО СО МНОЙ НЕ ТАК, Гислейн!"
+
+    old "Every time he shows up, my chest gets tight and my face gets hot!"
+    new "Каждый раз, когда он появляется, у меня всё сжимается внутри, а лицо начинает гореть!"
+
+    old "Am I SICK?! Is this a CURSE?!"
+    new "Я БОЛЬНА?! Это ПРОКЛЯТИЕ?!"
+
+    old "Then what IS it?!"
+    new "Тогда ЧТО ЭТО?!"
+
+    old "That's NOT HELPFUL!"
+    new "От этого НИКАКОЙ ПОЛЬЗЫ!"
+
+    old "Shut up and LISTEN!"
+    new "Замолчи и СЛУШАЙ!"
+
+    old "I... I have something to say and I'm only going to say it ONCE."
+    new "Я… я хочу кое-что сказать, и повторять это не собираюсь."
+
+    old "I... I think I..."
+    new "Я… Кажется, я…"
+
+    old "I think you're... not... TERRIBLE."
+    new "Кажется, ты… не такой уж… УЖАСНЫЙ."
+
+    old "...Not terrible?"
+    new "…Не такой уж ужасный?"
+
+    old "YES! Not terrible! You're actually... kind of..."
+    new "ДА! Не такой уж ужасный! Ты даже… в каком-то смысле…"
+
+    old "AAAGH! Why is this so HARD?!"
+    new "А-А-А! Почему это так ТРУДНО?!"
+
+    old "YOU MAKE ME FEEL WEIRD, OKAY?!"
+    new "ИЗ-ЗА ТЕБЯ Я ЧУВСТВУЮ СЕБЯ СТРАННО, ПОНЯЛ?!"
+
+    old "My stomach does flips and my heart won't shut up and I can't THINK straight around you!"
+    new "У меня всё переворачивается внутри, сердце никак не успокоится, и рядом с тобой я не могу ДУМАТЬ!"
+
+    old "And it's YOUR fault for being... for being YOU!"
+    new "И это ТВОЯ вина, потому что ты… потому что ты — ЭТО ТЫ!"
+
+    old "Eris..."
+    new "Эрис…"
+
+    old "I'M NOT FINISHED!"
+    new "Я ЕЩЁ НЕ ЗАКОНЧИЛА!"
+
+    old "...When you leave at the end of the day, I count the hours until you come back."
+    new "…Когда ты уходишь в конце дня, я считаю часы до твоего возвращения."
+
+    old "And when you praise me during lessons, I feel like I could fight a dragon."
+    new "А когда ты хвалишь меня на уроках, мне кажется, что я могу победить даже дракона."
+
+    old "And when you smile at me..."
+    new "А когда ты мне улыбаешься…"
+
+    old "...When you smile at me, I forget that I'm angry at the world."
+    new "…Когда ты мне улыбаешься, я забываю, что злюсь на весь мир."
+
+    old "...Say SOMETHING, you idiot!"
+    new "…Скажи ХОТЬ ЧТО-НИБУДЬ, идиот!"
+
+    old "I like you too, Eris."
+    new "Ты мне тоже нравишься, Эрис."
+
+    old "...You... you do?"
+    new "…Правда… правда?"
+
+    old "More than you know."
+    new "Даже больше, чем ты думаешь."
+
+    old "...WELL THEN! ...Good! ...OBVIOUSLY you do!"
+    new "…НУ И ОТЛИЧНО! …Хорошо! …ЕЩЁ БЫ ТЫ НЕ ОТВЕТИЛ ВЗАИМНО!"
+
+    old "I'm NOT crying! It's the WIND! There's wind in my eyes!"
+    new "Я НЕ ПЛАЧУ! Это ВЕТЕР! Мне ветер в глаза попал!"
+
+    old "There's no wind, Eris."
+    new "Здесь нет ветра, Эрис."
+
+    old "THEN I'M ALLERGIC TO YOUR STUPID FACE!"
+    new "ЗНАЧИТ, У МЕНЯ АЛЛЕРГИЯ НА ТВОЮ ДУРАЦКУЮ МОРДУ!"
+
+    old "...Same time tomorrow. And the day after. And the day after that."
+    new "…Завтра в то же время. И послезавтра. И на следующий день тоже."
+
+    old "You're not allowed to leave. EVER."
+    new "Тебе нельзя уходить. НИКОГДА."
+
+    old "...Thank you for not giving up on me."
+    new "…Спасибо, что не бросил меня."
+
+    old "Eris, you need to concentrate. The mana flow requires—"
+    new "Эрис, тебе нужно сосредоточиться. Поток маны требует…"
+
+    old "I KNOW! You've said that THREE times already!"
+    new "Я ЗНАЮ! Ты уже повторил это ТРИ раза!"
+
+    old "Because you keep losing focus. If you would just—"
+    new "Потому что ты постоянно отвлекаешься. Если бы ты только…"
+
+    old "Maybe if your lessons weren't so BORING, I wouldn't lose focus!"
+    new "Может, если бы твои уроки не были такими СКУЧНЫМИ, я бы не отвлекалась!"
+
+    old "Boring? I literally set a training dummy on fire for you yesterday."
+    new "Скучными? Я же вчера буквально поджёг для тебя тренировочное чучело."
+
+    old "That was yesterday! Today is TODAY and today SUCKS!"
+    new "Это было вчера! А сегодня — СЕГОДНЯ, и сегодня всё ОТСТОЙ!"
+
+    old "Eris, what's really—"
+    new "Эрис, что на самом деле…"
+
+    old "SHUT UP! You don't understand ANYTHING!"
+    new "ЗАТКНИСЬ! Ты НИЧЕГО не понимаешь!"
+
+    old "...There she goes again."
+    new "…И снова за своё."
