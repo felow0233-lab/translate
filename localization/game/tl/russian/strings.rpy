@@ -1274,3 +1274,48 @@ translate russian strings:
 
     old "The water sphere shoots toward the boys, who vanish screaming among the trees."
     new "Сфера воды устремляется к мальчишкам, и те с криками исчезают среди деревьев."
+
+    old "Hey, Sylphie? How's your magic training going?"
+    new "Эй, Сильфи, как продвигаются занятия магией?"
+
+    old "I've been training a lot… I think I'm getting a little better every day."
+    new "Я много тренируюсь… Кажется, с каждым днём у меня получается всё лучше."
+
+    old "That's awesome! Practice makes perfect, hehe."
+    new "Здорово! Практика ведёт к совершенству, хе-хе."
+
+    old "Hey, Sylphie, I brought a flower for you!"
+    new "Сильфи, я принёс тебе цветок!"
+
+    old "Oh! A flower for me? Thank you… It smells so nice."
+    new "Ой! Мне цветок? Спасибо… Как приятно пахнет."
+
+    old "Sylphie, I brought some fancy chocolates for you!"
+    new "Сильфи, я принёс тебе хорошие шоколадные конфеты!"
+
+    old "Wow! They look delicious! Thank you so much, Rudy!"
+    new "Ух ты! Выглядят очень аппетитно! Большое спасибо, Руди!"
+
+    old "Sylphie… I want you to have this."
+    new "Сильфи… Я хочу, чтобы это было у тебя."
+
+    old "This is… a jewel!? It's so beautiful! Thank you, Rudy…"
+    new "Это… драгоценность?! Какая красивая! Спасибо, Руди…"
+
+    old "You gained +{} affection with Sylphie!"
+    new "Ты получил +{} к привязанности Сильфи!"
+
+    old "Sylphie loved the gift! +10 Affection"
+    new "Сильфи понравился подарок! +10 к привязанности"
+
+    old "Sylphie loved the gift! +25 Affection"
+    new "Сильфи понравился подарок! +25 к привязанности"
+
+    old "Sylphie loved the gift! +50 Affection"
+    new "Сильфи понравился подарок! +50 к привязанности"
+
+    old "💬 Chat"
+    new "💬 Разговор"
+
+    old "🎁 Give gift"
+    new "🎁 Подарить"
