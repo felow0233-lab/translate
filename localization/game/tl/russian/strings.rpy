@@ -905,3 +905,63 @@ translate russian strings:
 
     old "You gained +{} affection with Roxy!"
     new "Ты получил +{} к привязанности Рокси!"
+
+    old "Hey, big bro!"
+    new "Привет, братик!"
+
+    old "💬Chat"
+    new "💬Поговорить"
+
+    old "🎁Give Gift"
+    new "🎁Подарить подарок"
+
+    old "So, Aisha!? How's your day going?"
+    new "Ну что, Айша!? Как проходит твой день?"
+
+    old "Oh… It's fine… Thanks for asking!"
+    new "О… Всё хорошо… Спасибо, что спросил!"
+
+    old "Hey Aisha, I brought you a flower!"
+    new "Айша, я принёс тебе цветок!"
+
+    old "Oh! A flower for me? Thank you so much, Big Bro!"
+    new "Ой! Это мне цветок? Большое спасибо, братик!"
+
+    old "Aisha, I got you some fancy chocolates!"
+    new "Айша, я принёс тебе изысканные конфеты!"
+
+    old "Wow! These look so delicious! You're the best Big Bro ever!"
+    new "Ух ты! Выглядят так вкусно! Ты лучший братик на свете!"
+
+    old "Aisha... I want you to have this."
+    new "Айша... Я хочу, чтобы это было у тебя."
+
+    old "Is that... a jewel!? Big Bro, this is too much!"
+    new "Это... драгоценность?! Братик, это слишком!"
+
+    old "It's so beautiful... I'll treasure it forever!"
+    new "Она такая красивая... Я буду беречь её всю жизнь!"
+
+    old "Aisha... This is something really special for you."
+    new "Айша... Это кое-что особенное для тебя."
+
+    old "W-what!? Big Bro, this necklace is... incredible!"
+    new "Ч-что?! Братик, это ожерелье... невероятное!"
+
+    old "I can't believe you got this for me! I love you so much!"
+    new "Не могу поверить, что ты купил это для меня! Я тебя так люблю!"
+
+    old "Aisha loved the gift! +10 Affection"
+    new "Айше понравился подарок! +10 к привязанности"
+
+    old "Aisha loved the gift! +25 Affection"
+    new "Айше понравился подарок! +25 к привязанности"
+
+    old "Aisha loved the gift! +50 Affection"
+    new "Айше понравился подарок! +50 к привязанности"
+
+    old "Aisha ABSOLUTELY loved the gift! +125 Affection"
+    new "Айша в полном восторге от подарка! +125 к привязанности"
+
+    old "You gained +{} affection with Aisha!"
+    new "Ты получил +{} к привязанности Айши!"
