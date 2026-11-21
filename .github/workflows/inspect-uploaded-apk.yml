@@ -1,0 +1,52 @@
+name: Inspect uploaded Mushoku APK
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download APK from Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p input output
+          gh release download apk-source --repo "${GITHUB_REPOSITORY}" --pattern "*.apk" --dir input
+          APK="$(find input -maxdepth 1 -type f -name '*.apk' -print -quit)"
+          test -n "$APK"
+          echo "APK_PATH=$APK" >> "$GITHUB_ENV"
+          ls -lh "$APK"
+          sha256sum "$APK" | tee output/apk-sha256.txt
+
+      - name: Install APK inspection tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y apktool unzip
+
+      - name: Inspect APK archive
+        run: |
+          unzip -l "$APK_PATH" > output/apk-file-list.txt
+          apktool d -f "$APK_PATH" -o output/apktool-decoded
+          find output/apktool-decoded -maxdepth 4 -type f | sort > output/decoded-file-list.txt
+          {
+            echo "## APK inspection"
+            echo
+            echo "- Source: GitHub Release `apk-source`"
+            echo "- APK: $(basename "$APK_PATH")"
+            echo "- Size: $(du -h "$APK_PATH" | cut -f1)"
+            echo
+            echo "### Ren'Py indicators"
+            grep -Ei 'renpy|\.rpyc?$|\.rpymc?$|\.rpa$' output/apk-file-list.txt | head -200 || true
+          } > output/REPORT.md
+
+      - name: Upload inspection results
+        uses: actions/upload-artifact@v4
+        with:
+          name: mushoku-apk-inspection
+          path: output/
+          if-no-files-found: error
+          retention-days: 7
