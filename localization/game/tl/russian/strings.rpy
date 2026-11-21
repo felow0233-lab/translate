@@ -1793,3 +1793,699 @@ translate russian strings:
 
     old "...There she goes again."
     new "…И снова за своё."
+
+    old "Rudeus! ...You came. Good. I was getting bored without you."
+    new "Рудеус! …Ты пришёл. Хорошо. Мне уже стало скучно без тебя."
+
+    old "There you are! What took you so long?! ...Not that I was waiting!"
+    new "Вот ты где! Где тебя носило?! …Не то чтобы я тебя ждала!"
+
+    old "Hmph. You're here. ...My day just got less boring. Don't let it go to your head!"
+    new "Хмф. Явился. …День стал чуточку менее скучным. Только не зазнавайся!"
+
+    old "Oh, it's you. ...What? I'm not happy to see you or anything!"
+    new "А, это ты. …Что? Я вовсе не рада тебя видеть!"
+
+    old "Rudeus. ...Fine, you can stay. But don't annoy me!"
+    new "Рудеус. …Ладно, можешь остаться. Только не действуй мне на нервы!"
+
+    old "You again? ...I suppose I don't hate your company."
+    new "Опять ты? …Пожалуй, твоё общество меня не раздражает."
+
+    old "What do you want? ...If it's a lesson, fine. But make it interesting!"
+    new "Чего тебе? …Если пришёл на урок, ладно. Но сделай его интересным!"
+
+    old "Rudeus. ...Did you bring anything fun? No? Then why are you here?"
+    new "Рудеус. …Принёс что-нибудь интересное? Нет? Тогда зачем пришёл?"
+
+    old "Hmph. At least you're not as boring as the other tutors."
+    new "Хмф. По крайней мере, ты не такой скучный, как остальные учителя."
+
+    old "What?! You again?! ...Fine. But don't waste my time!"
+    new "Что?! Опять ты?! …Ладно. Только не трать моё время!"
+
+    old "Here to teach me more useless stuff? ...Ugh, fine."
+    new "Пришёл учить меня очередной бесполезной ерунде? …Уф, ладно."
+
+    old "If you're going to be here, at least be entertaining!"
+    new "Раз уж пришёл, хотя бы развлекай меня!"
+
+    old "What do YOU want?! Go away!"
+    new "ЧЕГО ТЕБЕ НАДО?! Уходи!"
+
+    old "Not YOU again! I told you, I don't need a tutor!"
+    new "Только не ТЫ опять! Я же сказала, что мне не нужен учитель!"
+
+    old "Hmph! If you're here to lecture me, save your breath!"
+    new "Хмф! Если пришёл читать мне нотации, побереги дыхание!"
+
+    old "You better have a good reason for bothering me!"
+    new "Надеюсь, у тебя есть веская причина меня беспокоить!"
+
+    old "You begin today's magic lesson."
+    new "Вы начинаете сегодняшний урок магии."
+
+    old "...Fine. But only because YOUR magic is actually cool."
+    new "…Ладно. Но только потому, что ТВОЯ магия действительно крутая."
+
+    old "Eris focuses intensely. A small flame appears in her palm."
+    new "Эрис сосредоточенно пытается выполнить задание. На её ладони появляется маленькое пламя."
+
+    old "I DID IT! ...I mean, obviously I did. I'm amazing."
+    new "У МЕНЯ ПОЛУЧИЛОСЬ! …Хотя, конечно, иначе и быть не могло. Я потрясающая."
+
+    old "You demonstrate a water ball technique."
+    new "Вы показываете технику создания водяного шара."
+
+    old "That's it? Let me try! ...Why won't it work?!"
+    new "И это всё? Дай попробовать! …Почему не получается?!"
+
+    old "She slams her fist into the training dummy in frustration."
+    new "От досады она бьёт кулаком по тренировочному чучелу."
+
+    old "...Okay FINE. Show me again. SLOWLY this time."
+    new "…Ладно, ХОРОШО. Покажи ещё раз. На этот раз МЕДЛЕННО."
+
+    old "You set up a magic practice session."
+    new "Вы организуете занятие по магии."
+
+    old "Ugh, more magic? Can't we just spar instead?"
+    new "Уф, опять магия? Может, лучше просто устроим спарринг?"
+
+    old "She reluctantly sits down and tries to focus."
+    new "Она нехотя садится и пытается сосредоточиться."
+
+    old "...It flickered! Did you see?! The fire FLICKERED!"
+    new "…Оно вспыхнуло! Ты видел?! Огонёк ВСПЫХНУЛ!"
+
+    old "You try to teach her basic mana control."
+    new "Вы пытаетесь научить её основам управления маной."
+
+    old "This is BORING! When do I get to blow things up?!"
+    new "КАК СКУЧНО! Когда уже можно будет что-нибудь взорвать?!"
+
+    old "She clenches her fists, and a spark appears between her fingers."
+    new "Она сжимает кулаки, и между её пальцами проскакивает искра."
+
+    old "...Huh. That was actually kind of cool."
+    new "…Хм. А это было довольно круто."
+
+    old "You explain the fundamentals of mana."
+    new "Вы объясняете основы работы с маной."
+
+    old "Mana? What's that? Can I punch it?"
+    new "Мана? Это ещё что? Её можно ударить?"
+
+    old "She tries to concentrate but keeps fidgeting."
+    new "Она пытается сосредоточиться, но постоянно ёрзает."
+
+    old "This is STUPID! I'm a WARRIOR, not a mage!"
+    new "ГЛУПОСТЬ! Я ВОИН, а не маг!"
+
+    old "You show her a simple fire spell."
+    new "Вы показываете ей простое огненное заклинание."
+
+    old "Ooh, fire! Let me try!"
+    new "О-о, огонь! Дай попробовать!"
+
+    old "Nothing happens. She kicks the table."
+    new "Ничего не происходит. Она пинает стол."
+
+    old "UGH! This magic stuff is RIGGED!"
+    new "УФ! Да эта ваша магия НЕЧЕСТНАЯ!"
+
+    old "You suggest starting with magic basics."
+    new "Вы предлагаете начать с основ магии."
+
+    old "Magic is for LOSERS! Real fighters use SWORDS!"
+    new "Магия для НЕУДАЧНИКОВ! Настоящие бойцы сражаются МЕЧАМИ!"
+
+    old "She crosses her arms stubbornly."
+    new "Она упрямо скрещивает руки на груди."
+
+    old "...Fine. But if it's boring, I'm leaving!"
+    new "…Ладно. Но если будет скучно, я уйду!"
+
+    old "You try to explain what mana is."
+    new "Вы пытаетесь объяснить, что такое мана."
+
+    old "I don't CARE about mana! Show me something COOL or go away!"
+    new "МНЕ ПЛЕВАТЬ на ману! Покажи что-нибудь КРУТОЕ или проваливай!"
+
+    old "She glares at you impatiently."
+    new "Она нетерпеливо смотрит на вас."
+
+    old "...ONE more minute. Then I'm done."
+    new "…ЕЩЁ одна минута. А потом с меня хватит."
+
+    old "You challenge Eris to a sparring match."
+    new "Вы вызываете Эрис на тренировочный поединок."
+
+    old "FINALLY! Something worth doing! Come at me, Rudeus!"
+    new "НАКОНЕЦ-ТО! Хоть что-то стоящее! Ну же, Рудеус, нападай!"
+
+    old "She fights with incredible intensity, her eyes shining."
+    new "Она сражается с невероятным азартом, и её глаза сияют."
+
+    old "Ha! I almost got you that time! ...Best of three?!"
+    new "Ха! В этот раз я тебя почти достала! …До двух побед из трёх?!"
+
+    old "You take a fighting stance."
+    new "Вы принимаете боевую стойку."
+
+    old "That's more like it! None of that book nonsense!"
+    new "Вот это другое дело! Никакой книжной ерунды!"
+
+    old "She launches a flurry of punches. You barely block them."
+    new "Она обрушивает на вас град ударов, и вы едва успеваете их блокировать."
+
+    old "You're getting better! ...Not as good as ME, obviously!"
+    new "Ты становишься лучше! …Но до МОЕГО уровня тебе, конечно, далеко!"
+
+    old "You suggest some combat training."
+    new "Вы предлагаете немного потренироваться в бою."
+
+    old "NOW you're talking! Put 'em up!"
+    new "ВОТ теперь другое дело! Вставай в стойку!"
+
+    old "She throws a wild haymaker that you dodge."
+    new "Она наносит размашистый удар, от которого вы уклоняетесь."
+
+    old "Stand still so I can hit you!"
+    new "Стой смирно, чтобы я могла тебя ударить!"
+
+    old "You raise your training sword."
+    new "Вы поднимаете тренировочный меч."
+
+    old "Ooh, swords! Ghislaine taught me a new move!"
+    new "О-о, мечи! Гислейн научила меня новому приёму!"
+
+    old "She swings with raw power but no finesse."
+    new "Она наносит мощные удары, но пока без особой техники."
+
+    old "...Did I win? What do you mean 'not how swords work'?!"
+    new "…Я победила? Что значит «так фехтовать нельзя»?!"
+
+    old "You ask Eris if she wants to spar."
+    new "Вы спрашиваете Эрис, хочет ли она потренироваться в бою."
+
+    old "YEAH! Let's GO!"
+    new "ДА! ПОГНАЛИ!"
+
+    old "She charges at you before you're even ready."
+    new "Она бросается на вас, даже не дождавшись, пока вы подготовитесь."
+
+    old "Too slow! You need to be faster to fight a Boreas!"
+    new "Слишком медленно! Чтобы сражаться с Борей, нужно быть быстрее!"
+
+    old "You mention wanting to practice fighting."
+    new "Вы говорите, что хотите потренироваться в бою."
+
+    old "About TIME you said something interesting!"
+    new "ДАВНО ПОРА было сказать что-нибудь интересное!"
+
+    old "She punches you square in the stomach before you can react."
+    new "Прежде чем вы успеваете среагировать, она бьёт вас прямо в живот."
+
+    old "...What? You said practice! That WAS practice!"
+    new "…Что? Ты сам сказал потренироваться! Вот я и тренировалась!"
+
+    old "You pull out a textbook for today's lesson."
+    new "Вы достаёте учебник для сегодняшнего урока."
+
+    old "...Ugh, FINE. But only because it's you teaching."
+    new "…Уф, ЛАДНО. Но только потому, что урок ведёшь ты."
+
+    old "She actually tries to read, leaning close to you."
+    new "Она действительно пытается читать, наклонившись поближе к вам."
+
+    old "...I got this word right, didn't I? ...Don't give me that look! I CAN learn!"
+    new "…Я правильно прочитала это слово, да? …Не смотри на меня так! Я МОГУ учиться!"
+
+    old "You prepare a writing exercise."
+    new "Вы готовите упражнение по письму."
+
+    old "My handwriting is FINE! ...Okay maybe it's not. Help me."
+    new "У меня НОРМАЛЬНЫЙ почерк! …Ладно, может, и нет. Помоги мне."
+
+    old "She grips the pen like a sword hilt."
+    new "Она сжимает ручку, словно рукоять меча."
+
+    old "...There! 'Eris Boreas Greyrat!' ...It's NOT messy! You're just picky!"
+    new "…Вот! «Эрис Борей Грейрат»! …Почерк НЕ плохой! Это ты придираешься!"
+
+    old "You suggest a reading exercise."
+    new "Вы предлагаете упражнение по чтению."
+
+    old "Reading again?! Can't I just learn to sign my name and call it done?!"
+    new "Опять чтение?! Нельзя просто научиться писать своё имя и на этом закончить?!"
+
+    old "She struggles through a sentence, getting more frustrated."
+    new "Она с трудом дочитывает предложение и всё больше раздражается."
+
+    old "These words are STUPID! Who even uses 'perambulate'?!"
+    new "Какие же ГЛУПЫЕ слова! Кто вообще говорит «совершать прогулку»?!"
+
+    old "You try teaching basic arithmetic."
+    new "Вы пытаетесь обучить её основам арифметики."
+
+    old "If I have 5 swords and buy 3 more, I have 8 swords. SEE? I can do math!"
+    new "Если у меня 5 мечей и я куплю ещё 3, у меня будет 8 мечей. ВИДИШЬ? Я умею считать!"
+
+    old "You try harder problems. She breaks the pencil in half."
+    new "Вы предлагаете более сложные задачи. Она ломает карандаш пополам."
+
+    old "...Numbers are the ENEMY!"
+    new "…Числа — МОИ ВРАГИ!"
+
+    old "You try to start a lesson."
+    new "Вы пытаетесь начать урок."
+
+    old "I TOLD you, I don't need to learn this stuff!"
+    new "Я ЖЕ СКАЗАЛА, что мне не нужно всё это учить!"
+
+    old "She flips the textbook off the table."
+    new "Она смахивает учебник со стола."
+
+    old "...Hmph! Fine, pick it up. But make it INTERESTING!"
+    new "…Хмф! Ладно, подними его. Но сделай урок ИНТЕРЕСНЫМ!"
+
+    old "You open a children's reading primer."
+    new "Вы открываете букварь для детей."
+
+    old "IS THAT A KIDS' BOOK?! Do I LOOK like a kid to you?!"
+    new "ЭТО ДЕТСКАЯ КНИГА?! Я ЧТО, ПОХОЖА НА РЕБЁНКА?!"
+
+    old "Her face turns red from embarrassment."
+    new "Её лицо краснеет от смущения."
+
+    old "...J-Just read it to me first. So I know what it's SUPPOSED to sound like!"
+    new "…П-Почитай мне сначала сам. Чтобы я поняла, КАК ЭТО ДОЛЖНО ЗВУЧАТЬ!"
+
+    old "What do you want to do when you grow up?"
+    new "Кем ты хочешь стать, когда вырастешь?"
+
+    old "I want to be the strongest swordswoman in the world! Stronger than Ghislaine!"
+    new "Я хочу стать сильнейшей мечницей в мире! Сильнее Гислейн!"
+
+    old "...And maybe... travel the world. With someone I trust."
+    new "…И, может быть… путешествовать по миру. С кем-нибудь, кому я доверяю."
+
+    old "...Don't look at me like that! I didn't say it was YOU! ...But it could be."
+    new "…Не смотри на меня так! Я не говорила, что это будешь ТЫ! …Хотя, может, и ты."
+
+    old "Tell me about your family."
+    new "Расскажи о своей семье."
+
+    old "The Boreas family is the best! We're strong, proud, and we never back down!"
+    new "Семья Борей — лучшая! Мы сильные, гордые и никогда не отступаем!"
+
+    old "...Father is strict but he cares. Grandfather is... weird. But strong."
+    new "…Отец строгий, но ему не всё равно. Дедушка… странный. Но сильный."
+
+    old "And now there's you. ...You're part of this family too, I guess. ...IDIOT!"
+    new "А теперь есть и ты. …Пожалуй, ты тоже часть этой семьи. …ИДИОТ!"
+
+    old "What matters most to you?"
+    new "Что для тебя важнее всего?"
+
+    old "Strength! Obviously! ...But also..."
+    new "Сила! Очевидно! …Но ещё…"
+
+    old "...Having people who don't give up on me. Everyone else always leaves."
+    new "…Чтобы рядом были люди, которые не сдаются и не бросают меня. Все остальные всегда уходят."
+
+    old "...You didn't leave. That... that means something. Shut up!"
+    new "…А ты не ушёл. Это… это кое-что значит. Замолчи!"
+
+    old "How's your sword training with Ghislaine?"
+    new "Как проходят тренировки с мечом у Гислейн?"
+
+    old "It's BRUTAL! She doesn't hold back at all!"
+    new "ЖЕСТОКО! Она совсем не сдерживается!"
+
+    old "...But I'm getting stronger! I can almost keep up with her now!"
+    new "…Но я становлюсь сильнее! Теперь я почти могу за ней поспевать!"
+
+    old "Do you like living in this mansion?"
+    new "Тебе нравится жить в этом особняке?"
+
+    old "It's boring! Nothing ever happens!"
+    new "Скучно! Здесь никогда ничего не происходит!"
+
+    old "...Well, it got less boring since you showed up. A LITTLE less boring!"
+    new "…Ну, с твоим появлением стало чуть менее скучно. СОВСЕМ ЧУТЬ-ЧУТЬ!"
+
+    old "What's your favorite thing to do?"
+    new "Чем ты больше всего любишь заниматься?"
+
+    old "Fighting! Sword practice! Punching things!"
+    new "Сражаться! Тренироваться с мечом! Бить всякие вещи!"
+
+    old "...AND eating sweets. But that's a SECRET!"
+    new "…И ЕЩЁ есть сладости. Но это СЕКРЕТ!"
+
+    old "How are you today, Eris?"
+    new "Как ты сегодня, Эрис?"
+
+    old "I'm FINE! Why does everyone keep asking me that?!"
+    new "Я В ПОРЯДКЕ! Почему все постоянно меня об этом спрашивают?!"
+
+    old "...I trained all morning. Ghislaine said my stance improved."
+    new "…Я тренировалась всё утро. Гислейн сказала, что моя стойка стала лучше."
+
+    old "Have you ever been outside the mansion?"
+    new "Ты когда-нибудь бывала за пределами особняка?"
+
+    old "Father never lets me go anywhere! It's SO unfair!"
+    new "Отец никуда меня не отпускает! Это ТАК несправедливо!"
+
+    old "...One day I'll be strong enough to go wherever I want!"
+    new "…Однажды я стану достаточно сильной, чтобы ходить куда захочу!"
+
+    old "What do you think of magic?"
+    new "Что ты думаешь о магии?"
+
+    old "Magic is... okay I GUESS. Your fire spells are kind of cool."
+    new "Магия… наверное, ничего. Твои огненные заклинания даже довольно крутые."
+
+    old "...Don't tell anyone I said that!"
+    new "…Только никому не говори, что я это сказала!"
+
+    old "How's it going?"
+    new "Как дела?"
+
+    old "Don't ask stupid questions! How do you THINK it's going?!"
+    new "Не задавай глупых вопросов! Как, по-ТВОЕМУ, у меня дела?!"
+
+    old "Nice weather today."
+    new "Сегодня хорошая погода."
+
+    old "Who CARES about weather?! Weather doesn't make you stronger!"
+    new "КОМУ ЕСТЬ ДЕЛО до погоды?! От погоды ты сильнее не станешь!"
+
+    old "Want to talk about something?"
+    new "Хочешь о чём-нибудь поговорить?"
+
+    old "Talk about WHAT?! If you have nothing to say, then GO AWAY!"
+    new "О ЧЁМ поговорить?! Если тебе нечего сказать, ТО УХОДИ!"
+
+    old "...But don't actually go away. I'm bored."
+    new "…Но вообще не уходи. Мне скучно."
+
+    old "Hey Eris, how are you?"
+    new "Привет, Эрис, как ты?"
+
+    old "NONE of your business! Go away!"
+    new "НЕ ТВОЁ ДЕЛО! Уходи!"
+
+    old "Want to be friends?"
+    new "Хочешь дружить?"
+
+    old "FRIENDS?! With YOU?! Ha! Don't make me laugh!"
+    new "ДРУЖИТЬ?! С ТОБОЙ?! Ха! Не смеши меня!"
+
+    old "I'm your new tutor, we should get along."
+    new "Я твой новый учитель, нам стоит поладить."
+
+    old "I don't GET ALONG with anyone! Especially tutors! You'll quit like the rest!"
+    new "Я НИ С КЕМ НЕ ЛАЖУ! Особенно с учителями! Ты тоже уйдёшь, как остальные!"
+
+    old "You're LEAVING?! ...I-I mean, fine! See if I care! ...Come back soon!"
+    new "ТЫ УХОДИШЬ?! …Я-я имею в виду, ладно! Мне всё равно! …Возвращайся скорее!"
+
+    old "Already?! But we barely... UGH! Fine! Go! ...But come back tomorrow!"
+    new "Уже?! Но мы же только… УФ! Ладно! Иди! …Но завтра возвращайся!"
+
+    old "...Hmph. Finally some peace and quiet. ...It's too quiet. COME BACK!"
+    new "…Хмф. Наконец-то тишина и покой. …Слишком тихо. ВЕРНИСЬ!"
+
+    old "Leaving already? ...Whatever! I have training to do anyway!"
+    new "Уже уходишь? …Как хочешь! Мне всё равно нужно тренироваться!"
+
+    old "Fine! Go! I don't care! ...Maybe I care a LITTLE. Shut up!"
+    new "Ладно! Иди! Мне всё равно! …Может, мне НЕ СОВСЕМ всё равно. Молчи!"
+
+    old "Hmph! Don't think I'll miss you! ...I won't wait by the door or anything!"
+    new "Хмф! Не думай, что я буду скучать! …И у двери я ждать не собираюсь!"
+
+    old "FINALLY! Now I can do something FUN!"
+    new "НАКОНЕЦ-ТО! Теперь можно заняться чем-нибудь ВЕСЁЛЫМ!"
+
+    old "About time! You were starting to bore me!"
+    new "Давно пора! Ты уже начал меня утомлять!"
+
+    old "Go then! Who needs you! ...Not me!"
+    new "Ну и иди! Кому ты нужен! …Только не мне!"
+
+    old "GOOD! Go away and don't come back!"
+    new "ОТЛИЧНО! Уходи и не возвращайся!"
+
+    old "Finally! I thought you'd NEVER leave!"
+    new "Наконец-то! Я уж думала, ты НИКОГДА не уйдёшь!"
+
+    old "Hmph! And STAY gone!"
+    new "Хмф! И НЕ ВОЗВРАЩАЙСЯ!"
+
+    old "Another day at the mansion. Eris was waiting in the study room."
+    new "Ещё один день в особняке. Эрис ждала меня в учебной комнате."
+
+    old "Surprisingly, she was actually sitting at the desk this time, instead of destroying furniture."
+    new "К моему удивлению, на этот раз она сидела за столом, а не громила мебель."
+
+    old "That was new. She usually resisted magic lessons like a cat resists a bath."
+    new "Вот это новость. Обычно она сопротивлялась урокам магии, словно кошка купанию."
+
+    old "She squeezed her eyes shut and clenched her fist."
+    new "Она крепко зажмурилась и сжала кулак."
+
+    old "Her whole body tensed. The veins in her arm bulged."
+    new "Всё её тело напряглось. На руке вздулись вены."
+
+    old "A tiny spark appeared in her palm. Then it flickered out."
+    new "На её ладони появилась крошечная искра, а затем погасла."
+
+    old "She jumped up from her chair and grabbed my shoulders."
+    new "Она вскочила со стула и схватила меня за плечи."
+
+    old "Her face was beaming — a genuine, unguarded smile that I'd never seen before."
+    new "Её лицо озарила искренняя, беззаботная улыбка, которой я раньше никогда не видел."
+
+    old "She hugged me. Just for a second. Then she shoved me away."
+    new "Она обняла меня. Всего на секунду, а затем оттолкнула."
+
+    old "She stomped around the room, trying to act angry, but the corners of her mouth kept twitching upward."
+    new "Она ходила по комнате, пытаясь изображать злость, но уголки её губ то и дело приподнимались."
+
+    old "She ran out of the room like she was fleeing a battlefield."
+    new "Она выбежала из комнаты, словно спасалась бегством с поля боя."
+
+    old "But I caught a glimpse of her face as she left."
+    new "Но перед уходом я успел увидеть её лицо."
+
+    old "She was smiling. A real, honest smile."
+    new "Она улыбалась. По-настоящему, искренне."
+
+    old "...Progress."
+    new "…Уже прогресс."
+
+    old "I found Eris sitting alone in the garden."
+    new "Я нашёл Эрис, сидевшую одну в саду."
+
+    old "She wasn't training. She wasn't destroying anything."
+    new "Она не тренировалась и ничего не громила."
+
+    old "She was just... sitting there, staring at the sky."
+    new "Она просто… сидела и смотрела в небо."
+
+    old "Her eyes were red. Had she been... crying?"
+    new "Её глаза покраснели. Неужели она… плакала?"
+
+    old "She was quiet for a long moment. The wind rustled through the garden."
+    new "Она долго молчала. В саду шелестел ветер."
+
+    old "She punched the ground. Hard enough to crack the stone."
+    new "Она ударила кулаком по земле — так сильно, что камень треснул."
+
+    old "She wiped her face aggressively."
+    new "Она сердито вытерла лицо."
+
+    old "For just a moment, she leaned against my shoulder."
+    new "На мгновение она прислонилась к моему плечу."
+
+    old "Then she shoved me away and stood up."
+    new "Затем оттолкнула меня и поднялась."
+
+    old "She ran off toward the training grounds."
+    new "Она убежала в сторону тренировочной площадки."
+
+    old "...But before she turned the corner, she looked back."
+    new "…Но перед поворотом она оглянулась."
+
+    old "I couldn't help but smile."
+    new "Я невольно улыбнулся."
+
+    old "Weeks had passed since I started adjusting my teaching methods for Eris."
+    new "Прошло несколько недель с тех пор, как я начал подстраивать методику обучения под Эрис."
+
+    old "Instead of sitting at a desk, we practiced in the training grounds."
+    new "Вместо занятий за столом мы тренировались на площадке."
+
+    old "Magic through movement. Spells through sword forms. Theory through sparring."
+    new "Магия через движение. Заклинания через фехтовальные приёмы. Теория через спарринг."
+
+    old "And today, something incredible happened."
+    new "И сегодня произошло нечто невероятное."
+
+    old "She took a deep breath. Drew her wooden sword."
+    new "Она глубоко вдохнула и вытащила деревянный меч."
+
+    old "Her stance was textbook Sword God Style — Ghislaine's teaching showed."
+    new "Её стойка была образцовой для стиля Бога Меча — видна была школа Гислейн."
+
+    old "But her arm was coated in a faint glow of mana — MY teaching."
+    new "Но её руку окутывало слабое сияние маны — результат МОИХ уроков."
+
+    old "She swung the sword in a single, explosive arc."
+    new "Она взмахнула мечом одним резким, мощным движением."
+
+    old "Fire erupted along the blade's path, leaving a scorching trail in the air."
+    new "Вдоль траектории клинка вспыхнул огонь, оставив в воздухе раскалённый след."
+
+    old "The training dummy didn't just break. It disintegrated."
+    new "Тренировочное чучело не просто сломалось. Оно разлетелось на куски."
+
+    old "She looked at her hands in disbelief."
+    new "Она недоверчиво посмотрела на свои руки."
+
+    old "Then she looked at me — and for once, there was no anger, no defiance."
+    new "Затем она посмотрела на меня — и впервые в её взгляде не было ни злости, ни вызова."
+
+    old "Just pure, unfiltered joy."
+    new "Только неподдельная радость."
+
+    old "She grabbed my hands and jumped up and down."
+    new "Она схватила меня за руки и запрыгала на месте."
+
+    old "She was practically vibrating with excitement."
+    new "Она буквально дрожала от восторга."
+
+    old "This was the girl everyone called 'unteachable.' The 'impossible' student."
+    new "Это была та самая девочка, которую все называли «необучаемой» и «безнадёжной ученицей»."
+
+    old "She just needed someone to meet her where she was."
+    new "Ей просто нужен был человек, который нашёл бы к ней подход."
+
+    old "She charged off to find Ghislaine, probably to show off her new technique."
+    new "Она помчалась искать Гислейн, чтобы, вероятно, похвастаться новым приёмом."
+
+    old "I could hear her yelling across the courtyard:"
+    new "Я слышал, как она кричала через весь двор:"
+
+    old "...I've never been more proud of a student."
+    new "…Я никогда так не гордился своей ученицей."
+
+    old "I was heading to the study room when I heard something unusual."
+    new "Я направлялся в учебную комнату, когда услышал кое-что необычное."
+
+    old "Eris' voice. But not yelling. Whispering."
+    new "Это был голос Эрис. Но она не кричала, а шептала."
+
+    old "I stopped by the door and listened. She was talking to Ghislaine."
+    new "Я остановился у двери и прислушался. Она разговаривала с Гислейн."
+
+    old "I heard Ghislaine's deep, even reply:"
+    new "Я услышал спокойный, низкий голос Гислейн:"
+
+    old "...That's not a sickness, Eris."
+    new "…Это не болезнь, Эрис."
+
+    old "...You'll figure it out."
+    new "…Ты сама во всём разберёшься."
+
+    old "I stepped away from the door, my heart pounding."
+    new "Я отошёл от двери, и сердце у меня сильно колотилось."
+
+    old "Did she mean...?"
+    new "Неужели она имела в виду…?"
+
+    old "Later that evening, Eris found me in the garden."
+    new "Позже вечером Эрис нашла меня в саду."
+
+    old "She was trembling. Her fists were clenched so tight her knuckles were white."
+    new "Она дрожала, сжимая кулаки так сильно, что костяшки побелели."
+
+    old "Her face was the same color as her hair."
+    new "Её лицо стало таким же красным, как волосы."
+
+    old "She grabbed her own hair in frustration."
+    new "От досады она схватилась за волосы."
+
+    old "She looked away, her entire body shaking."
+    new "Она отвернулась, и всё её тело дрожало."
+
+    old "Silence. The garden was quiet except for the evening crickets."
+    new "Наступила тишина. В саду были слышны только вечерние сверчки."
+
+    old "She turned away, but not before I saw the tears streaming down her cheeks."
+    new "Она отвернулась, но я успел заметить слёзы, стекавшие по её щекам."
+
+    old "She wiped her tears with her arm and turned back to me."
+    new "Она вытерла слёзы рукавом и снова повернулась ко мне."
+
+    old "Her cheeks were red. Her eyes were shining."
+    new "Её щёки покраснели, а глаза сияли."
+
+    old "And she was smiling — the most beautiful, genuine smile I'd ever seen."
+    new "И она улыбалась — самой красивой и искренней улыбкой, которую я когда-либо видел."
+
+    old "She stomped away into the mansion."
+    new "Она решительно направилась обратно в особняк."
+
+    old "But halfway to the door, she ran back, punched my arm, and whispered:"
+    new "Но на полпути к двери она вернулась, ударила меня по руке и прошептала:"
+
+    old "Then she was gone."
+    new "А затем скрылась."
+
+    old "...Eris Boreas Greyrat."
+    new "…Эрис Борей Грейрат."
+
+    old "Violent, stubborn, loud, impossible..."
+    new "Вспыльчивая, упрямая, шумная, невыносимая…"
+
+    old "...And the most honest person I've ever met."
+    new "…И самый искренний человек из всех, кого я встречал."
+
+    old "Event complete! +10 Affection"
+    new "Событие завершено! +10 к привязанности"
+
+    old "Today's lesson didn't go well."
+    new "Сегодняшний урок прошёл неудачно."
+
+    old "Eris was more restless than usual. She couldn't focus, couldn't sit still."
+    new "Эрис была ещё беспокойнее обычного. Она не могла сосредоточиться и усидеть на месте."
+
+    old "Every time I tried to explain a new spell formula, she'd fidget, grunt, and look away."
+    new "Каждый раз, когда я пытался объяснить новую формулу заклинания, она ёрзала, ворчала и отворачивалась."
+
+    old "Something was clearly bothering her. But Eris was never one to explain her feelings."
+    new "Её явно что-то беспокоило. Но Эрис не привыкла объяснять свои чувства."
+
+    old "She expressed everything through violence."
+    new "Она выражала всё через силу."
+
+    old "She kicked the desk, sending books flying."
+    new "Она пнула стол, и книги разлетелись в разные стороны."
+
+    old "Then she stormed out of the room, slamming the door so hard the hinges cracked."
+    new "Затем она вылетела из комнаты и так сильно хлопнула дверью, что треснули петли."
+
+    old "I sighed. This wasn't the first time she'd run off."
+    new "Я вздохнул. Она убегала уже не в первый раз."
+
+    old "But something about today felt different. She wasn't just angry — she was frustrated. With herself."
+    new "Но сегодня всё было иначе. Она не просто злилась — она была недовольна самой собой."
+
+    old "I should find her."
+    new "Нужно её найти."
