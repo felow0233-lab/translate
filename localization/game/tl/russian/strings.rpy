@@ -1271,3 +1271,6 @@ translate russian strings:
 
     old "You met Eris! +5 Affection"
     new "Ты познакомился с Эрис! +5 к привязанности"
+
+    old "The water sphere shoots toward the boys, who vanish screaming among the trees."
+    new "Сфера воды устремляется к мальчишкам, и те с криками исчезают среди деревьев."
