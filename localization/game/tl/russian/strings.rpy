@@ -1319,3 +1319,57 @@ translate russian strings:
 
     old "🎁 Give gift"
     new "🎁 Подарить"
+
+    old "Rudy!"
+    new "Руди!"
+
+    old "Hey Mom, how are you today?"
+    new "Привет, мам. Как ты сегодня?"
+
+    old "Hi sweetie! I'm doing well, thanks for asking."
+    new "Привет, милый! У меня всё хорошо, спасибо, что спросил."
+
+    old "You gained +{} affection with Zenith!"
+    new "Ты получил +{} к привязанности Зенит!"
+
+    old "Mom, I brought you a flower."
+    new "Мам, я принёс тебе цветок."
+
+    old "Oh honey! How thoughtful of you! I love it!"
+    new "Ох, милый! Как приятно с твоей стороны! Мне очень нравится!"
+
+    old "Zenith loved the gift! +10 Affection"
+    new "Зенит понравился подарок! +10 к привязанности"
+
+    old "Mom, I got you some chocolates!"
+    new "Мам, я купил тебе шоколадные конфеты!"
+
+    old "Chocolates! My favorite! You're such a sweet boy!"
+    new "Шоколад! Мои любимые! Какой же ты заботливый!"
+
+    old "Zenith loved the gift! +25 Affection"
+    new "Зенит понравился подарок! +25 к привязанности"
+
+    old "Mom... I want you to have this."
+    new "Мам… Я хочу, чтобы это было у тебя."
+
+    old "A jewel!? Rudeus, this is so expensive!"
+    new "Драгоценность?! Рудеус, это же так дорого!"
+
+    old "You shouldn't have... but it's beautiful! Thank you, my dear!"
+    new "Не стоило… Но она прекрасна! Спасибо, дорогой!"
+
+    old "Zenith loved the gift! +50 Affection"
+    new "Зенит понравился подарок! +50 к привязанности"
+
+    old "Mom... This necklace is for the most important woman in my life."
+    new "Мам… Это ожерелье для самой важной женщины в моей жизни."
+
+    old "Oh Rudeus! This is... this is absolutely stunning!"
+    new "Ох, Рудеус! Оно… оно просто великолепно!"
+
+    old "I don't know what to say... You're such a wonderful son!"
+    new "Я даже не знаю, что сказать… Ты замечательный сын!"
+
+    old "Zenith ABSOLUTELY loved the gift! +125 Affection"
+    new "Зенит ОЧЕНЬ понравился подарок! +125 к привязанности"
