@@ -6476,3 +6476,5 @@ translate russian strings:
     new "Словно мужчина только что не кончил на неё."
     old "That was Ghislaine. Unshakeable."
     new "Вот такая Гислейн. Непоколебимая."
+
+translate russian strings:
