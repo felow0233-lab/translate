@@ -4873,3 +4873,21 @@ old "The realization hit her like a thunderbolt."
     new "(…Значит, будет следующий раз?)"
     old "Tomorrow is going to be VERY awkward."
     new "Завтра будет ОЧЕНЬ неловко."
+
+    old "Her eyes snapped open."
+    new "Её глаза распахнулись."
+
+    old "Time stopped."
+    new "Время остановилось."
+
+    old "Crimson eyes — hazy with sleep — locked onto mine."
+    new "Её багровые глаза, затуманенные сном, встретились с моими."
+
+    old "For one horrible second, she didn't understand what was happening."
+    new "В одно ужасное мгновение она не понимала, что происходит."
+
+    old "Then she felt it. My cock pressed against her. Her panties pulled aside. Her legs spread wide."
+    new "Затем она почувствовала это. Мой член прижался к ней. Её бельё было отодвинуто, а ноги широко разведены."
+
+    old "Her gaze traveled down between their bodies."
+    new "Её взгляд опустился туда, где соприкасались наши тела."
