@@ -107,27 +107,169 @@ jobs:
                   strings[json.loads(m.group(1))]=json.loads(n.group(1))
           files=list(root.rglob("*.rpy"))
           if not files: raise SystemExit("RenPy did not generate translation source files")
+          translations={**strings,**dialogue}
           changed=0
           for path in files:
-              text=path.read_text(encoding="utf-8-sig")
-              rows=text.splitlines()
+              rows=path.read_text(encoding="utf-8-sig").splitlines()
               for i,line in enumerate(rows[:-1]):
-                  m=re.match(r'^(\s*old\s+)("(?:\\.|[^"\\])*")(\s*)$',line)
-                  if m:
-                      old=json.loads(m.group(2))
-                      if old in strings:
-                          rows[i+1]=re.sub(r'^(\s*new\s+).*$',lambda x:x.group(1)+json.dumps(strings[old],ensure_ascii=False),rows[i+1])
-                          changed+=1
-              text="\n".join(rows)+"\n"
-              # Apply every maintained old/new pair directly to generated dialogue
-              # and UI translation scripts as well as the string translation blocks.
-              for old,new in strings.items():
-                  text=text.replace(json.dumps(old,ensure_ascii=False),json.dumps(new,ensure_ascii=False))
-              for old,new in dialogue.items():
-                  text=text.replace(json.dumps(old,ensure_ascii=False),json.dumps(new,ensure_ascii=False))
-              path.write_text(text,encoding="utf-8")
-          print("Translated string entries:",changed)
-          print("Dialogue entries applied:",len(dialogue))
+                  m=re.match(r'^(\s*old\s+)("(?:\\.|[^"\\])*")(\s*)
+          PY
+          cd renpy-sdk
+          ./renpy.sh ../project compile
+          cd ..
+          test -f project/game/x-options.rpyc
+          test -f project/game/x-gui.rpyc
+          grep -q 'DejaVuSans.ttf' project/game/x-gui.rpy
+          ! grep -q 'Fredoka.ttf' project/game/x-gui.rpy
+          test -f project/game/tl/russian/x-characters_script/x-06_roxy.rpyc
+          test -f project/game/tl/russian/x-screens.rpyc
+          test -f project/game/tl/russian/x-script.rpyc
+
+      - name: Patch APK with compiled Russian files
+        run: |
+          python - <<'PY'
+          import zipfile, pathlib, shutil, os
+          src=pathlib.Path(os.environ["APK"])
+          out=pathlib.Path("output/Mushoku-Tensex-RU-unsigned.apk")
+          tl=pathlib.Path("project/game/tl/russian")
+          additions={}
+          for p in tl.rglob("*.rpyc"):
+              rel=p.relative_to(tl).as_posix()
+              if rel == "common.rpyc": continue
+              additions["assets/x-game/x-tl/x-russian/"+rel]=p
+          additions["assets/x-game/x-options.rpyc"]=pathlib.Path("project/game/x-options.rpyc")
+          additions["assets/x-game/x-gui.rpyc"]=pathlib.Path("project/game/x-gui.rpyc")
+          if not additions["assets/x-game/x-gui.rpyc"].is_file():
+              raise SystemExit("Compiled GUI script missing")
+          if not any("x-characters_script/x-06_roxy.rpyc" in k for k in additions):
+              raise SystemExit("Compiled Roxy translation missing")
+          with zipfile.ZipFile(src,"r") as zin, zipfile.ZipFile(out,"w",allowZip64=True) as zout:
+              for info in zin.infolist():
+                  name=info.filename
+                  if name in additions: continue
+                  upper=name.upper()
+                  if upper.startswith("META-INF/") and upper.endswith((".SF",".RSA",".DSA",".EC")): continue
+                  if upper == "META-INF/MANIFEST.MF": continue
+                  with zin.open(info) as r, zout.open(info,"w") as w:
+                      shutil.copyfileobj(r,w,1024*1024)
+              for name,path in additions.items():
+                  info=zipfile.ZipInfo(name,date_time=(2026,11,21,16,0,0))
+                  info.compress_type=zipfile.ZIP_STORED
+                  with open(path,"rb") as r,zout.open(info,"w") as w:
+                      shutil.copyfileobj(r,w,1024*1024)
+          print("Added/replaced",len(additions),"compiled Russian files")
+          print("Unsigned APK size:",out.stat().st_size)
+          PY
+
+      - name: Sign and verify APK
+        run: |
+          sudo apt-get install -y apksigner zipalign
+          keytool -genkeypair -keystore output/ru-test.jks -storepass testpass123 -keypass testpass123 -alias ru-test -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Mushoku Russian Test"
+          zipalign -p -f 4 output/Mushoku-Tensex-RU-unsigned.apk output/Mushoku-Tensex-RU-aligned.apk
+          apksigner sign --ks output/ru-test.jks --ks-pass pass:testpass123 --key-pass pass:testpass123 --out output/Mushoku-Tensex-RU-test.apk output/Mushoku-Tensex-RU-aligned.apk
+          apksigner verify --verbose output/Mushoku-Tensex-RU-test.apk
+          unzip -l output/Mushoku-Tensex-RU-test.apk | grep -E 'x-tl/x-russian|x-options.rpyc' | head -30
+
+      - name: Upload test APK to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload apk-source output/Mushoku-Tensex-RU-test.apk --repo "${GITHUB_REPOSITORY}" --clobber
+
+      - name: Upload compact build report
+        uses: actions/upload-artifact@v4
+        with:
+          name: mushoku-russian-apk-report
+          path: |
+            output/Mushoku-Tensex-RU-test.apk
+          if-no-files-found: error
+          retention-days: 7
+,line)
+                  if not m: continue
+                  source_text=json.loads(m.group(2))
+                  if source_text in translations:
+                      rows[i+1]=re.sub(
+                          r'^(\s*new\s+).*
+          PY
+          cd renpy-sdk
+          ./renpy.sh ../project compile
+          cd ..
+          test -f project/game/x-options.rpyc
+          test -f project/game/x-gui.rpyc
+          grep -q 'DejaVuSans.ttf' project/game/x-gui.rpy
+          ! grep -q 'Fredoka.ttf' project/game/x-gui.rpy
+          test -f project/game/tl/russian/x-characters_script/x-06_roxy.rpyc
+          test -f project/game/tl/russian/x-screens.rpyc
+          test -f project/game/tl/russian/x-script.rpyc
+
+      - name: Patch APK with compiled Russian files
+        run: |
+          python - <<'PY'
+          import zipfile, pathlib, shutil, os
+          src=pathlib.Path(os.environ["APK"])
+          out=pathlib.Path("output/Mushoku-Tensex-RU-unsigned.apk")
+          tl=pathlib.Path("project/game/tl/russian")
+          additions={}
+          for p in tl.rglob("*.rpyc"):
+              rel=p.relative_to(tl).as_posix()
+              if rel == "common.rpyc": continue
+              additions["assets/x-game/x-tl/x-russian/"+rel]=p
+          additions["assets/x-game/x-options.rpyc"]=pathlib.Path("project/game/x-options.rpyc")
+          additions["assets/x-game/x-gui.rpyc"]=pathlib.Path("project/game/x-gui.rpyc")
+          if not additions["assets/x-game/x-gui.rpyc"].is_file():
+              raise SystemExit("Compiled GUI script missing")
+          if not any("x-characters_script/x-06_roxy.rpyc" in k for k in additions):
+              raise SystemExit("Compiled Roxy translation missing")
+          with zipfile.ZipFile(src,"r") as zin, zipfile.ZipFile(out,"w",allowZip64=True) as zout:
+              for info in zin.infolist():
+                  name=info.filename
+                  if name in additions: continue
+                  upper=name.upper()
+                  if upper.startswith("META-INF/") and upper.endswith((".SF",".RSA",".DSA",".EC")): continue
+                  if upper == "META-INF/MANIFEST.MF": continue
+                  with zin.open(info) as r, zout.open(info,"w") as w:
+                      shutil.copyfileobj(r,w,1024*1024)
+              for name,path in additions.items():
+                  info=zipfile.ZipInfo(name,date_time=(2026,11,21,16,0,0))
+                  info.compress_type=zipfile.ZIP_STORED
+                  with open(path,"rb") as r,zout.open(info,"w") as w:
+                      shutil.copyfileobj(r,w,1024*1024)
+          print("Added/replaced",len(additions),"compiled Russian files")
+          print("Unsigned APK size:",out.stat().st_size)
+          PY
+
+      - name: Sign and verify APK
+        run: |
+          sudo apt-get install -y apksigner zipalign
+          keytool -genkeypair -keystore output/ru-test.jks -storepass testpass123 -keypass testpass123 -alias ru-test -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Mushoku Russian Test"
+          zipalign -p -f 4 output/Mushoku-Tensex-RU-unsigned.apk output/Mushoku-Tensex-RU-aligned.apk
+          apksigner sign --ks output/ru-test.jks --ks-pass pass:testpass123 --key-pass pass:testpass123 --out output/Mushoku-Tensex-RU-test.apk output/Mushoku-Tensex-RU-aligned.apk
+          apksigner verify --verbose output/Mushoku-Tensex-RU-test.apk
+          unzip -l output/Mushoku-Tensex-RU-test.apk | grep -E 'x-tl/x-russian|x-options.rpyc' | head -30
+
+      - name: Upload test APK to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload apk-source output/Mushoku-Tensex-RU-test.apk --repo "${GITHUB_REPOSITORY}" --clobber
+
+      - name: Upload compact build report
+        uses: actions/upload-artifact@v4
+        with:
+          name: mushoku-russian-apk-report
+          path: |
+            output/Mushoku-Tensex-RU-test.apk
+          if-no-files-found: error
+          retention-days: 7
+, 
+                          lambda x:x.group(1)+json.dumps(translations[source_text],ensure_ascii=False),
+                          rows[i+1]
+                      )
+                      changed+=1
+              path.write_text("\\n".join(rows)+"\\n",encoding="utf-8")
+          print("Translated dialogue/string entries applied:",changed)
+          print("Maintained string mappings:",len(strings))
+          print("Dialogue mappings:",len(dialogue))
           PY
           cd renpy-sdk
           ./renpy.sh ../project compile
