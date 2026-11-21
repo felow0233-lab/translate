@@ -2534,3 +2534,19 @@ translate russian strings:
 
     old "🔒 You need at least 420 affection to unlock this option."
     new "🔒 Чтобы открыть эту опцию, нужно не менее 420 очков привязанности."
+
+translate russian strings:
+    old "(Now that I'm seeing her up close… holy shit. She's actually pretty cute.)"
+    new "(Теперь, когда я вижу её вблизи… чёрт возьми. Она и правда очень милая.)"
+
+    old "(Green hair, pointy ears… a real elf. And so young-looking… but legal, apparently.)"
+    new "(Зелёные волосы, острые ушки… настоящая эльфийка. И выглядит такой юной… но, похоже, она уже совершеннолетняя.)"
+
+    old "(Those little ears twitching every time she gets nervous… Oh daddy… control yourself, Rudy.)"
+    new "(Её маленькие ушки дёргаются каждый раз, когда она нервничает… Ох, папочка… возьми себя в руки, Руди.)"
+
+    old "(Bath? Water running down that delicate little elf body… calm down, brain, calm down.)"
+    new "(Купание? Вода стекает по этому хрупкому эльфийскому телу… Спокойно, мозг, спокойно.)"
+
+    old "(Hehe… this is going to be way more fun than I imagined. And who knows… maybe I'll get a little piece of this cute elf…)"
+    new "(Хе-хе… всё будет куда интереснее, чем я представлял. И кто знает… может, мне даже кое-что перепадёт от этой милашки-эльфийки…)"
