@@ -1082,3 +1082,189 @@ translate russian strings:
 
     old "You gained +5 affection with Norn!"
     new "Ты получил +5 к привязанности Норн!"
+
+    old "Rudeus! Finally! I was... waiting for you to come by."
+    new "Рудеус! Наконец-то! Я... ждала, когда ты заглянешь."
+
+    old "Big brother! I'm glad you showed up... I wanted to see you."
+    new "Братик! Я рада, что ты пришёл... Мне хотелось тебя увидеть."
+
+    old "Oh, you came! I... I missed you... N-not that I was counting the minutes or anything!"
+    new "О, ты пришёл! Я... скучала по тебе... Н-не то чтобы я считала минуты или что-то такое!"
+
+    old "Oh... you again. N-not that I'm happy to see you or anything..."
+    new "О... опять ты. Н-не то чтобы я была рада тебя видеть..."
+
+    old "Rudeus... you showed up. I... was thinking about you earlier. J-just thinking!"
+    new "Рудеус... ты пришёл. Я... недавно думала о тебе. П-просто думала!"
+
+    old "Hmpf... Took you long enough. I... thought you weren't coming today."
+    new "Хмф... Долго же тебя не было. Я... думала, ты сегодня не придёшь."
+
+    old "Nii-chan! It's so good to see you! I-I mean... what do you want?"
+    new "Нии-тян! Как же я рада тебя видеть! Т-то есть... чего тебе?"
+
+    old "Oh... it's you. N-not that I noticed you were gone or anything, okay?"
+    new "О... это ты. Н-не подумай, будто я заметила твоё отсутствие, ясно?"
+
+    old "Rudeus-nii... you came. That's... nice, I guess."
+    new "Рудеус-нии... ты пришёл. Это... наверное, хорошо."
+
+    old "Hmph, you again. What do you want this time?"
+    new "Хмф, опять ты. Чего тебе на этот раз?"
+
+    old "Oh... it's you. Need something?"
+    new "О... это ты. Что-то нужно?"
+
+    old "Why are you here? I hope it's not to bother me again."
+    new "Зачем ты пришёл? Надеюсь, не собираешься снова меня доставать."
+
+    old "Hmph, you're here again. What do you want?"
+    new "Хмф, опять пришёл. Чего хочешь?"
+
+    old "Ugh... what do you want now?"
+    new "Уф... чего тебе теперь?"
+
+    old "Don't you have anything better to do? Why are you here?"
+    new "Тебе больше нечем заняться? Зачем ты пришёл?"
+
+    old "Ugh, what do you want? Can't you see I'm busy?"
+    new "Уф, чего тебе? Не видишь, что я занята?"
+
+    old "Go away. I'm busy."
+    new "Уходи. Я занята."
+
+    old "Seriously? You again? Leave me alone."
+    new "Серьёзно? Опять ты? Оставь меня в покое."
+
+    old "I don't have time for you right now. Get out."
+    new "У меня сейчас на тебя нет времени. Уходи."
+
+    old "Norn, you know you're the prettiest girl I've ever seen?"
+    new "Норн, ты знаешь, что ты самая красивая девушка из всех, кого я встречал?"
+
+    old "R-Rudeus... you can't just say things like that out of nowhere!"
+    new "Р-Рудеус... нельзя вот так внезапно говорить такие вещи!"
+
+    old "But... thank you. You're also... pretty handsome, you know?"
+    new "Но... спасибо. Ты тоже... довольно симпатичный, знаешь?"
+
+    old "You know, I can't stop thinking about you."
+    new "Знаешь, я постоянно думаю о тебе."
+
+    old "I-I think about you too... all the time..."
+    new "Я-я тоже думаю о тебе... постоянно..."
+
+    old "That's... that's weird, right? But I like it..."
+    new "Это... странно, да? Но мне нравится..."
+
+    old "Every time I see you, my heart races."
+    new "Каждый раз, когда я тебя вижу, моё сердце начинает биться быстрее."
+
+    old "S-stop it! Mine does the same when you show up..."
+    new "Х-хватит! У меня то же самое, когда появляешься ты..."
+
+    old "That's... that means... anyway."
+    new "Это... значит... Впрочем, неважно."
+
+    old "Norn, you get prettier every day."
+    new "Норн, с каждым днём ты становишься всё красивее."
+
+    old "Hmpf... You really think so?"
+    new "Хмф... Ты правда так думаешь?"
+
+    old "W-well... you're not that ugly either..."
+    new "Н-ну... ты тоже не такой уж страшный..."
+
+    old "Your smile is beautiful, you know?"
+    new "Знаешь, у тебя очень красивая улыбка."
+
+    old "I-I wasn't smiling! You're seeing things!"
+    new "Я-я не улыбалась! Тебе показалось!"
+
+    old "But... if I were... would you like it?"
+    new "Но... если бы улыбалась... тебе бы понравилось?"
+
+    old "I love it when you blush like that."
+    new "Мне нравится, когда ты вот так краснеешь."
+
+    old "I-I'm not blushing! It's just... the heat!"
+    new "Я-я не краснею! Просто... жарко!"
+
+    old "And you're annoying... but in a good way."
+    new "И ты раздражаешь... но в хорошем смысле."
+
+    old "Hey Norn, you get prettier with each passing day."
+    new "Эй, Норн, с каждым днём ты становишься всё красивее."
+
+    old "Hmpf... Fine, fine. Thanks, I guess."
+    new "Хмф... Ладно, ладно. Спасибо, наверное."
+
+    old "You... aren't so bad to look at either, sometimes."
+    new "Ты... тоже иногда выглядишь вполне ничего."
+
+    old "That hairstyle really suits you."
+    new "Тебе очень идёт эта причёска."
+
+    old "Really? I... tried something different today."
+    new "Правда? Я... сегодня решила попробовать что-то новое."
+
+    old "Glad you noticed... idiot."
+    new "Рада, что заметил... идиот."
+
+    old "You have the most beautiful eyes I've ever seen."
+    new "У тебя самые красивые глаза из всех, что я видел."
+
+    old "D-don't stare at me like that!"
+    new "Н-не смотри на меня так!"
+
+    old "But... thanks. Yours are pretty too."
+    new "Но... спасибо. У тебя тоже красивые."
+
+    old "Hey Norn, did you do something different with your hair?"
+    new "Эй, Норн, ты что-то сделала со своей причёской?"
+
+    old "Hmpf... What are you talking about? My hair is normal, you idiot!"
+    new "Хмф... О чём ты говоришь? У меня обычная причёска, идиот!"
+
+    old "That dress looks great on you."
+    new "Это платье тебе очень идёт."
+
+    old "A-are you trying to get something? Why are you complimenting me?"
+    new "Т-ты чего-то добиваешься? С чего вдруг делаешь мне комплименты?"
+
+    old "You look pretty today."
+    new "Сегодня ты прекрасно выглядишь."
+
+    old "'Today'? So the other days I'm not?"
+    new "«Сегодня»? Значит, в остальные дни я некрасивая?"
+
+    old "Hmpf!"
+    new "Хмф!"
+
+    old "I like it when you smile."
+    new "Мне нравится, когда ты улыбаешься."
+
+    old "I wasn't smiling! And stop looking at me!"
+    new "Я не улыбалась! И хватит на меня смотреть!"
+
+    old "Stop trying to flatter me. It won't work."
+    new "Хватит пытаться мне льстить. Не поможет."
+
+    old "Hey Norn, you look really pretty today."
+    new "Эй, Норн, сегодня ты очень красивая."
+
+    old "W-what? Stop complimenting me, it's weird!"
+    new "Ч-что? Хватит делать мне комплименты, это странно!"
+
+    old "Your hair looks nice."
+    new "У тебя красивые волосы."
+
+    old "Buzz off! What do you want?"
+    new "Отстань! Чего тебе?"
+
+    old "You look gorgeous."
+    new "Ты прекрасно выглядишь."
+
+    old "Shut up! I don't want to hear that from you!"
+    new "Замолчи! Я не хочу слышать от тебя такое!"
