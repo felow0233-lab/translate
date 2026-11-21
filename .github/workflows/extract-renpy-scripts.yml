@@ -1,0 +1,81 @@
+name: Extract Mushoku RenPy scripts
+
+on:
+  push:
+    paths:
+      - ".github/workflows/extract-renpy-scripts.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download APK from Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p input output/scripts
+          gh release download apk-source --repo "${GITHUB_REPOSITORY}" --pattern "*.apk" --dir input
+          APK="$(find input -maxdepth 1 -type f -name '*.apk' -print -quit)"
+          test -n "$APK"
+          echo "APK_PATH=$APK" >> "$GITHUB_ENV"
+          sha256sum "$APK" | tee output/apk-sha256.txt
+
+      - name: Extract game scripts
+        run: |
+          python - <<'PY'
+          import zipfile, os
+          apk = os.environ["APK_PATH"]
+          wanted = [
+              "assets/x-game/x-characters_script/x-06_roxy.rpyc",
+              "assets/x-game/x-characters_script/x-06_roxy_story.rpyc",
+              "assets/x-game/x-screens.rpyc",
+              "assets/x-game/x-gui.rpyc",
+              "assets/x-game/x-options.rpyc",
+              "assets/x-game/x-intro.rpyc",
+              "assets/x-game/x-script.rpyc",
+              "assets/x-game/x-03_init.rpyc",
+              "assets/x-game/x-tl/x-None/x-common.rpym",
+          ]
+          with zipfile.ZipFile(apk) as z:
+              names=set(z.namelist())
+              for name in wanted:
+                  if name in names:
+                      out="output/scripts/"+os.path.basename(name)
+                      with z.open(name) as src, open(out,"wb") as dst:
+                          dst.write(src.read())
+                      print("EXTRACTED", name, os.path.getsize(out))
+                  else:
+                      print("MISSING", name)
+          PY
+
+      - name: Decompile RenPy bytecode
+        run: |
+          git clone --depth 1 https://github.com/CensoredUsername/unrpyc.git tools/unrpyc
+          python tools/unrpyc/unrpyc.py --help > output/unrpyc-help.txt 2>&1 || true
+          set +e
+          for f in output/scripts/*.rpyc; do
+            [ -f "$f" ] || continue
+            echo "### $f" >> output/decompile-log.txt
+            python tools/unrpyc/unrpyc.py "$f" >> output/decompile-log.txt 2>&1
+            echo "exit=$?" >> output/decompile-log.txt
+          done
+          set -e
+          find output/scripts -maxdepth 1 -type f -printf '%f %s bytes\n' | sort > output/script-files.txt
+          test -n "$(find output/scripts -maxdepth 1 -type f -name '*.rpy' -print -quit)"
+
+      - name: Upload extracted and decompiled scripts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mushoku-renpy-scripts
+          path: |
+            output/scripts/
+            output/apk-sha256.txt
+            output/decompile-log.txt
+            output/unrpyc-help.txt
+            output/script-files.txt
+          if-no-files-found: error
+          retention-days: 7
