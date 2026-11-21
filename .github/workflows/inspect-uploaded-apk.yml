@@ -31,7 +31,8 @@ jobs:
         run: |
           unzip -l "$APK_PATH" > output/apk-file-list.txt
           apktool d -f "$APK_PATH" -o output/apktool-decoded
-          find output/apktool-decoded -maxdepth 4 -type f | sort > output/decoded-file-list.txt
+          find output/apktool-decoded -maxdepth 5 -type f | sort > output/decoded-file-list.txt
+          cp output/apktool-decoded/AndroidManifest.xml output/AndroidManifest-decoded.xml
           {
             echo "## APK inspection"
             echo
@@ -39,14 +40,25 @@ jobs:
             echo "- APK: $(basename "$APK_PATH")"
             echo "- Size: $(du -h "$APK_PATH" | cut -f1)"
             echo
+            echo "### APK metadata"
+            grep -E 'package=|android:versionCode|android:versionName' output/AndroidManifest-decoded.xml | head -30 || true
+            echo
             echo "### Ren'Py indicators"
-            grep -Ei 'renpy|\.rpyc?$|\.rpymc?$|\.rpa$' output/apk-file-list.txt | head -200 || true
+            grep -Ei 'renpy|\.rpyc?$|\.rpymc?$|\.rpa$' output/apk-file-list.txt | head -250 || true
+            echo
+            echo "### Decoded file count"
+            find output/apktool-decoded -type f | wc -l
           } > output/REPORT.md
 
-      - name: Upload inspection results
+      - name: Upload compact inspection results
         uses: actions/upload-artifact@v4
         with:
-          name: mushoku-apk-inspection
-          path: output/
+          name: mushoku-apk-inspection-report
+          path: |
+            output/REPORT.md
+            output/apk-sha256.txt
+            output/apk-file-list.txt
+            output/decoded-file-list.txt
+            output/AndroidManifest-decoded.xml
           if-no-files-found: error
           retention-days: 7
