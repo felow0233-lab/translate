@@ -28,20 +28,22 @@ jobs:
           python - <<'PY'
           import zipfile, os
           apk=os.environ["APK"]
-          wanted=[
-            "assets/x-game/x-03_init.rpyc",
-            "assets/x-game/x-characters_script/x-06_roxy.rpyc",
-            "assets/x-game/x-gui.rpyc",
-            "assets/x-game/x-intro.rpyc",
-            "assets/x-game/x-options.rpyc",
-            "assets/x-game/x-screens.rpyc",
-            "assets/x-game/x-script.rpyc",
-          ]
           with zipfile.ZipFile(apk) as z:
-            for member in wanted:
-              out="project/game/"+member.split("assets/x-game/",1)[1]
-              os.makedirs(os.path.dirname(out),exist_ok=True)
-              with z.open(member) as src,open(out,"wb") as dst: dst.write(src.read())
+            members=[
+              name for name in z.namelist()
+              if name.startswith("assets/x-game/")
+              and name.endswith(".rpyc")
+              and "/x-tl/" not in name
+            ]
+            if not members:
+              raise SystemExit("No compiled game scripts found")
+            for member in members:
+              rel=member.split("assets/x-game/",1)[1]
+              out=pathlib.Path("project/game")/rel
+              out.parent.mkdir(parents=True,exist_ok=True)
+              with z.open(member) as src,open(out,"wb") as dst:
+                dst.write(src.read())
+            print("Extracted game scripts:",len(members))
           PY
 
       - name: Decompile source scripts
